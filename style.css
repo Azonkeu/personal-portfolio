@@ -351,23 +351,27 @@ body {
     align-self: center;
   }
 
-  .hamburger {
-    display: block;
-    cursor: pointer;
+  .navx {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 24px;
   }
 
-  .nav-menu.active {
-    left: 0;
+  .navlinkli {
+    flex: 1;
+    list-style: none;
+    width: 16px;
+    top: 12px;
+    left: 4px;
+    padding-right: 24px;
+    margin-top: 34.67px;
+    margin-bottom: 18px;
   }
 
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
+  .menubarx {
+    text-decoration: none;
   }
 
   .mobile {
