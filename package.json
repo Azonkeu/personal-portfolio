@@ -1,0 +1,25 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Set up a mobile version of a  Portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azonkeu/personal-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Azonkeu Ornela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azonkeu/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/Azonkeu/personal-portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.6"
+  }
+}

@@ -1,0 +1,510 @@
+body {
+  width: 1440px;
+  height: 870px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 72px;
+  background-color: #3e3c3c;
+  align-items: center;
+  align-content: center;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 154px;
+  margin-right: 757px;
+}
+
+.author {
+  flex: 1;
+  width: 92px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 154px;
+}
+
+.navli1 {
+  list-style: none;
+  flex: 1;
+  width: 63px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  margin-right: 32px;
+}
+
+.navli2 {
+  list-style: none;
+  flex: 1;
+  width: 45px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  margin-right: 32px;
+}
+
+.navli3 {
+  list-style: none;
+  flex: 1;
+  width: 59px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  margin-right: 38px;
+}
+
+.navli4 {
+  list-style: none;
+  flex: 1;
+  left: 25%;
+  right: 25%;
+  top: 33.33%;
+  bottom: 50px;
+}
+
+.navlink1 {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+.navlink2 {
+  text-decoration: none;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.navlink3 {
+  text-decoration: none;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.navlink4 {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile {
+  display: none;
+}
+
+.section1 {
+  background-color: #000;
+  height: 870px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(pictures/background.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main-text2 {
+  display: none;
+}
+
+.main-text {
+  flex: 1;
+  order: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  max-width: 566px;
+  margin-left: 89px;
+  margin-right: 731px;
+  margin-bottom: 91px;
+}
+
+.hey-there {
+  flex: 1;
+  width: 566px;
+  max-height: 160px;
+  top: 192px;
+  font-family: Crete Round, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 81px;
+  color: #f55800;
+  margin-top: 192px;
+  margin-bottom: 0;
+  align-self: center;
+}
+
+.software {
+  width: 566px;
+  flex: 1;
+  max-height: 24px;
+  top: 376px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  align-self: center;
+  margin-top: 24px;
+}
+
+.intro {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 24px;
+  color: #f4f5f7;
+  align-self: center;
+  margin-bottom: 191px;
+  max-height: 123px;
+  top: 424px;
+}
+
+.icon {
+  flex: 1;
+  order: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  align-content: center;
+  align-items: center;
+  max-width: 105px;
+  margin-top: 279px;
+  margin-bottom: 339px;
+  max-height: 335.04px;
+}
+
+.icon1 {
+  display: none;
+}
+
+.medium {
+  flex: 1;
+  top: 513px;
+  margin-top: 20.04px;
+  bottom: 88.4%;
+  right: 96.11%;
+  left: 2.5%;
+}
+
+.twitter {
+  flex: 1;
+  top: 473px;
+  margin-top: 18px;
+  bottom: 89.19%;
+  right: 96.11%;
+  left: 2.5%;
+}
+
+.angel-list {
+  flex: 1;
+  margin-left: 4px;
+  top: 435px;
+  margin-top: 21px;
+  bottom: 90.02%;
+  right: 96.24%;
+  left: 2.78%;
+}
+
+.linkeldin {
+  flex: 1;
+  top: 400.28px;
+  margin-top: 29.28px;
+}
+
+.github {
+  flex: 1;
+  bottom: 91.87%;
+}
+
+@font-face {
+  font-family: "Crete Round";
+  src: url(Crete_Round/CreteRound-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(Inter/static/Inter-Bold.ttf);
+}
+
+@media screen and (max-width: 900px) and (min-width: 314px), (min-width: 1100px) {
+  @font-face {
+    font-family: "Crete Round";
+    src: url(Crete_Round/CreteRound-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url(Roboto/Roboto-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url(Roboto/Roboto-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url(Poppins/Poppins-Light.ttf);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .containerx {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #3e3c3c;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    height: 60px;
+  }
+
+  .container {
+    display: none;
+  }
+
+  body {
+    width: 100vh;
+    height: 100vh;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 190px;
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  .authorx {
+    flex: 1;
+    text-align: center;
+    width: 77px;
+    height: 24px;
+    left: 12px;
+    top: 10px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    align-self: center;
+  }
+
+  .navx {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 24px;
+  }
+
+  .navlinkli {
+    flex: 1;
+    list-style: none;
+    width: 16px;
+    top: 12px;
+    left: 4px;
+    padding-right: 24px;
+    margin-top: 34.67px;
+    margin-bottom: 18px;
+  }
+
+  .menubarx {
+    text-decoration: none;
+  }
+
+  .mobile {
+    max-width: 375px;
+    margin: 0;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .section1 {
+    display: none;
+  }
+
+  .main-textx {
+    display: flex;
+    background-image: url(pictures/phonebackg.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    flex-direction: column;
+    background-color: #000;
+    background-size: 32%;
+  }
+
+  .hey-therex {
+    flex: 1;
+    max-width: 327px;
+    max-height: 124px;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    color: #ff6b00;
+    margin-top: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0;
+    align-self: flex-start;
+    letter-spacing: 0.37px;
+  }
+
+  .softwarex {
+    flex: 1;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 327px;
+    max-height: 27px;
+    top: 256px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+    align-self: flex-start;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .introx {
+    flex: 1;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    color: #fff;
+    align-self: flex-start;
+    max-height: 123px;
+    max-width: 327px;
+    margin-bottom: 0;
+    top: 295px;
+  }
+
+  .iconx {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 35.01px;
+    max-width: 178.99px;
+    margin-top: 22px;
+    margin-bottom: 130px;
+    height: 20px;
+    margin-right: 65.19px;
+  }
+
+  .mediumx {
+    flex: 1;
+    top: 513px;
+    margin-top: 3px;
+    bottom: 88.4%;
+    right: 96.11%;
+    left: 2.5%;
+    margin-left: 20.01px;
+  }
+
+  .twitterx {
+    flex: 1;
+    top: 473px;
+    margin-top: 0;
+    bottom: 89.19%;
+    right: 96.11%;
+    left: 2.5%;
+    margin-left: 22.92px;
+  }
+
+  .angel-listx {
+    flex: 1;
+    top: 435px;
+    margin-top: 0;
+    bottom: 90.02%;
+    right: 96.24%;
+    left: 2.78%;
+    margin-left: 22.92px;
+  }
+
+  .linkedinx {
+    flex: 1;
+    top: 400.28px;
+    margin-top: 0;
+    bottom: 90.92%;
+    margin-left: 21px;
+  }
+
+  .githubx {
+    flex: 1;
+    bottom: 91.87%;
+  }
+}
