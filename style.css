@@ -45,7 +45,7 @@ body {
   align-items: center;
   margin-right: 154px;
 }
-  
+
 .navli1 {
   list-style: none;
   flex: 1;
@@ -65,7 +65,7 @@ body {
   top: 10px;
   margin-right: 32px;
 }
-  
+
 .navli3 {
   list-style: none;
   flex: 1;
@@ -75,7 +75,7 @@ body {
   top: 10px;
   margin-right: 38px;
 }
-  
+
 .navli4 {
   list-style: none;
   flex: 1;
@@ -93,7 +93,7 @@ body {
   font-style: normal;
   font-family: 'Inter', sans-serif;
 }
-  
+
 .navlink2 {
   text-decoration: none;
   color: white;
@@ -103,7 +103,7 @@ body {
   font-size: 15px;
   line-height: 20px;
 }
-  
+
 .navlink3 {
   text-decoration: none;
   color: white;
@@ -117,14 +117,15 @@ body {
   text-decoration: none;
   color: white;
 }
-  
+
 .mobile {
   display: none;
 }
 
 .section1 {
   background-color: #000;
-  height: 870px;display: flex;
+  height: 870px;
+  display: flex;
   flex-direction: row;
   background-image: url(pictures/background.svg);
   background-repeat: no-repeat;
@@ -134,7 +135,7 @@ body {
 .main-text2 {
   display: none;
 }
-  
+
 .main-text {
   flex: 1;
   order: 0;
@@ -147,7 +148,7 @@ body {
   margin-right: 731px;
   margin-bottom: 91px;
 }
-  
+
 .hey-there {
   flex: 1;
   width: 566px;
@@ -163,7 +164,7 @@ body {
   margin-bottom: 0;
   align-self: center;
 }
-  
+
 .software {
   width: 566px;
   flex: 1;
@@ -178,7 +179,7 @@ body {
   align-self: center;
   margin-top: 24px;
 }
-  
+
 .intro {
   flex: 1;
   font-family: Inter, sans-serif;
@@ -207,11 +208,11 @@ body {
   margin-bottom: 339px;
   max-height: 335.04px;
 }
-  
+
 .icon1 {
   display: none;
 }
-  
+
 .medium {
   flex: 1;
   top: 513px;
@@ -220,7 +221,7 @@ body {
   right: 96.11%;
   left: 2.5%;
 }
-  
+
 .twitter {
   flex: 1;
   top: 473px;
@@ -229,7 +230,7 @@ body {
   right: 96.11%;
   left: 2.5%;
 }
-  
+
 .angel-list {
   flex: 1;
   margin-left: 4px;
@@ -239,7 +240,7 @@ body {
   right: 96.24%;
   left: 2.78%;
 }
-  
+
 .linkeldin {
   flex: 1;
   top: 400.28px;
@@ -506,4 +507,5 @@ body {
     flex: 1;
     bottom: 91.87%;
   }
-} 
+
+}
