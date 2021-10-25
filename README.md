@@ -5,6 +5,10 @@
 In this project, you will set up a mobile version of a portfolio website. To begin, go to [Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) and select a [template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1).
 
 ### General requirements
+* Create a Github repository.
+* Set up the repository locally by cloning it to your local machine.
+* Create a feature branch.
+* Configure the upstream remote value.
 * Make sure that there are [no linter errors](https://github.com/microverseinc/linters-config).
 * Make sure that you used correct [GitHub Flow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/github_flow.md).
 * Make sure that you documented your work [in a professional way](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/professional_repo_rules.md).

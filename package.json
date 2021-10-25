@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Azonkeu/personal-portfolio/issues"
   },
-  "homepage": "https://github.com/Azonkeu/personal-portfolio#readme"
+  "homepage": "https://github.com/Azonkeu/personal-portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.6"
+  }
 }
