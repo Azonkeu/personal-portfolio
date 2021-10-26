@@ -15,6 +15,7 @@
   ],
   "author": "Azonkeu Ornela",
   "license": "MIT",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Azonkeu/personal-portfolio/issues"
   },
