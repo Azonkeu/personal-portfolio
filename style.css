@@ -732,7 +732,6 @@ body {
     border-bottom-color: #ff6b00;
     border-left-color: #ff6b00;
     border-right-color: #ff6b00;
-    box-shadow: #ff6b00;
     border-style: solid;
   }
 
@@ -745,7 +744,7 @@ body {
     color: #f55800;
   }
 
-  .projectlinkx:pressed {
+  .projectlinkx:active {
     background: #e05304;
     color: #f4f1f0;
   }
@@ -1086,7 +1085,6 @@ body {
     border-bottom-color: #ff6b00;
     border-left-color: #ff6b00;
     border-right-color: #ff6b00;
-    box-shadow: #ff6b00;
     border-style: solid;
     padding: 0;
   }
@@ -1100,7 +1098,7 @@ body {
     color: #f55800;
   }
 
-  .hellospan:pressed {
+  .hellospan:active {
     background: #e05304;
     color: #f4f1f0;
   }
