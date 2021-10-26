@@ -510,14 +510,11 @@ body {
 
   .work {
     display: grid;
-    display: grid;
     width: 375px;
     margin-top: 120px;
-    width: 375px;
     height: auto;
     background-color: #fff;
-    grid-template-areas: 
-    "article";
+    grid-template-areas: "article";
   }
 
   .article {
@@ -540,13 +537,9 @@ body {
 
   .recent {
     flex: 1;
-  }
-
-  .recent {
-    flex: 1;
     width: 327px;
     height: 83px;
-    font-family: Crete Round;
+    font-family: Crete Round, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -563,10 +556,10 @@ body {
   }
 
   .image {
-     flex: 1;
-     width: 327px;
-     height: 237px;
-     margin-top: 80px;
+    flex: 1;
+    width: 327px;
+    height: 237px;
+    margin-top: 80px;
   }
 
   .story-line {
@@ -577,11 +570,12 @@ body {
     margin-top: 12px;
     margin-bottom: 0;
   }
+
   .story {
     flex: 1;
     width: 327px;
     height: 36px;
-    font-family: Crete Round;
+    font-family: Crete Round, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -594,7 +588,7 @@ body {
 
   .daily {
     flex: 1;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -634,9 +628,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 25px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -660,9 +654,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 32px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -686,9 +680,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 71px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
@@ -713,14 +707,14 @@ body {
     margin-bottom: 10px;
     font-family: Inter;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
-    line-height: 20px;
     color: #091e42;
+    line-height: 20px;
     width: 37px;
   }
 
-  .projectlinkx{
+  .projectlinkx {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -731,11 +725,11 @@ body {
     margin-top: 12px;
   }
 
-  .linking { 
+  .linking {
     flex: 1;
     text-decoration: none;
     color: #fff;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
@@ -758,13 +752,12 @@ body {
   }
 
   .box2 {
-    grid-area: box2 ;
+    grid-area: box2;
     background-image: url(gridback.png);
     width: 327px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
   }
 
   .box3 {
@@ -785,7 +778,7 @@ body {
     background-size: 100%;
   }
 
-  .box5{
+  .box5 {
     grid-area: box5;
     background-image: url(gridback.png);
     width: 327px;
@@ -809,13 +802,7 @@ body {
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 24px;
-    grid-template-areas: 
-    "box1"
-    "box2"
-    "box3"
-    "box4"
-    "box5"
-    "box6";
+    grid-template-areas: "box1""box2""box3""box4""box5""box6";
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
@@ -851,7 +838,7 @@ body {
 
   .title {
     flex: 1;
-    font-family: Crete Round;
+    font-family: Crete Round, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -866,7 +853,7 @@ body {
 
   .content {
     flex: 1;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -878,6 +865,7 @@ body {
   }
 
   .language1 {
+    flex: 1;
     display: flex;
     flex-direction: row;
     width: 61px;
@@ -885,13 +873,13 @@ body {
     margin-left: 0;
     margin-right: 75px;
     margin-bottom: 0;
+    margin-top: 12px;
     color: #fff;
   }
 
   .html1 {
     flex: 1;
-    width: 32px;
-    height: 20;
+    margin-left: 16px;
     padding-right: 12px;
     padding-left: 12px;
     padding-top: 10px;
@@ -902,8 +890,6 @@ body {
 
   .bootstrap1 {
     flex: 1;
-    width: 71px;
-    height: 20;
     padding-right: 12px;
     padding-left: 12px;
     padding-top: 10px;
@@ -915,8 +901,6 @@ body {
 
   .ruby1 {
     flex: 1;
-    width: 37px;
-    height: 20;
     padding-right: 12px;
     padding-left: 12px;
     padding-top: 10px;
@@ -949,7 +933,7 @@ body {
     left: 12px;
     margin-top: 12px;
     margin-bottom: 12px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
@@ -961,11 +945,9 @@ body {
     display: grid;
     width: 375px;
     margin-top: 120px;
-    width: 375px;
     height: auto;
     background-color: #000;
-    grid-template-areas: 
-    "wrap";
+    grid-template-areas: "wrap";
   }
 
   .wrap {
@@ -1022,13 +1004,9 @@ body {
     width: 160px;
   }
 
-  li {
-    list-style: none;
-  }
-
   .bolda {
     flex: 1;
-    font-family: Crete Round;
+    font-family: Crete Round, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
@@ -1037,7 +1015,7 @@ body {
     color: #ff6b00;
     width: 327px;
     height: 79px;
-    left:24px;
+    left: 24px;
     margin-top: 120px;
     margin-bottom: 0;
     margin-left: 24px;
@@ -1045,7 +1023,7 @@ body {
 
   .hello {
     flex: 1;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1115,7 +1093,7 @@ body {
 
   .spa {
     flex: 1;
-    font-family: InaiMathi;
+    font-family: InaiMathi, Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1151,7 +1129,7 @@ body {
 
   .spa1 {
     flex: 1;
-    font-family: InaiMathi;
+    font-family: InaiMathi, Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1187,7 +1165,7 @@ body {
 
   .spa2 {
     flex: 1;
-    font-family: InaiMathi;
+    font-family: InaiMathi, Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1205,7 +1183,7 @@ body {
     height: 24px;
     left: 0;
     top: 12px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -1222,7 +1200,7 @@ body {
     height: 24px;
     left: 0;
     top: 12px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
