@@ -705,7 +705,7 @@ body {
     margin-right: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -1057,7 +1057,7 @@ body {
     margin: 12px;
     text-decoration: none;
     color: #fff;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
