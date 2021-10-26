@@ -1234,7 +1234,7 @@ body {
     line-height: 43px;
     text-align: center;
     margin-right: 50px;
-    margin-bottom: 0;
+    margin-bottom: 32px;
     margin-top: 0;
   }
 
@@ -1252,6 +1252,28 @@ body {
     text-align: center;
     margin-right: 50px;
     margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .iteml {
+    flex: 1;
+    width: 114px;
+    height: 24px;
+    left: 0;
+    top: 12px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 43px;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 32px;
+    margin-top: 0;
+    margin-left: 60px;
+  }
+
+  .last {
     margin-bottom: 0;
   }
 
