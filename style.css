@@ -1286,11 +1286,35 @@ body {
     flex-direction: column;
     width: 375px;
     height: auto;
-    background-color: red;
+    background-color: #fff;
+    align-items: center;
   }
 
   .footer-text {
+    flex: 1;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #172b4d;
+    width: 327px;
+    height: 216px;
+    margin-top: 120px;
+    letter-spacing: 0.03em;
+    justify-self: center;
+  }
 
+  .touch {
+    display: none;
+  }
+
+  .formx {
+    flex: 1;
+    margin-top: 73px;
   }
 
   .formul {
@@ -1306,6 +1330,6 @@ body {
   }
 
   .buttonsub {
-    
+
   }
 }
