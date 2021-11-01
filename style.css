@@ -1372,7 +1372,7 @@ body {
     height: 48px;
     background-color: #ff6b00;
     color: #fff;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
@@ -1400,7 +1400,7 @@ body {
   }
 
   .iconw5 {
-   margin-top: 6px;
+    margin-top: 6px;
   }
 
   .icongroup {
@@ -1409,7 +1409,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .spanix {
     margin-left: auto;
     margin-right: auto;
