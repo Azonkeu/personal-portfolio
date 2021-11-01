@@ -1292,7 +1292,7 @@ body {
 
   .footer-text {
     flex: 1;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1328,7 +1328,7 @@ body {
   }
 
   ::placeholder {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1358,7 +1358,7 @@ body {
     background-color: #fbf8f7;
     border: none;
     padding: 12px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
