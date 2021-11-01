@@ -1306,6 +1306,7 @@ body {
     margin-top: 120px;
     letter-spacing: 0.03em;
     justify-self: center;
+    margin-bottom: 0;
   }
 
   .touch {
@@ -1321,6 +1322,9 @@ body {
     border: none;
     border-bottom: 1px solid #dbd8d7;
     width: 327px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 14px;
   }
 
   ::placeholder {
@@ -1331,7 +1335,6 @@ body {
     line-height: 24px;
     width: 295px;
     height: 18px;
-    margin-left: 28px;
   }
 
   .formul {
@@ -1354,6 +1357,7 @@ body {
     margin-top: 24px;
     background-color: #fbf8f7;
     border: none;
+    padding: 12px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -1361,7 +1365,60 @@ body {
     line-height: 24px;
   }
 
-  .buttonsub {
+  .button_form {
+    flex: 1;
+    padding: 12px;
+    width: 131px;
+    height: 48px;
+    background-color: #ff6b00;
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+  }
 
+  .buttonsub {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+  }
+
+  .iconw1 {
+    margin-top: 3px;
+  }
+
+  .iconw3 {
+    margin-top: 3px;
+  }
+
+  .iconw4 {
+    margin-top: 3px;
+  }
+
+  .iconw5 {
+   margin-top: 6px;
+  }
+
+  .icongroup {
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .spanix {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+
+  .spanix1 {
+    height: 5px;
+    max-width: 375px;
+    margin-top: 124px;
   }
 }
