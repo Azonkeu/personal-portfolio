@@ -1282,7 +1282,11 @@ body {
   }
 
   .footer {
-
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: auto;
+    background-color: red;
   }
 
   .footer-text {
