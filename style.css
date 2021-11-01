@@ -918,7 +918,7 @@ body {
   }
 
   .bootstrap1 {
-    flex: 1;
+    float: left;
     padding-right: 12px;
     padding-left: 12px;
     padding-top: 10px;
@@ -929,7 +929,7 @@ body {
   }
 
   .ruby1 {
-    flex: 1;
+    float: left;
     padding-right: 12px;
     padding-left: 12px;
     padding-top: 10px;
