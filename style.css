@@ -1440,4 +1440,12 @@ body {
     background: #fff5e1;
     color: #f55800;
   }
+
+  textarea::placeholder {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
