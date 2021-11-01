@@ -1421,4 +1421,23 @@ body {
     max-width: 375px;
     margin-top: 124px;
   }
+
+  button:disabled {
+    background: #f4f1f0;
+    color: #5b5957;
+  }
+
+  button:enabled {
+    background: #f55800;
+  }
+
+  button:active {
+    background: #e05304;
+    color: #f4f1f0
+  }
+
+  button:hover {
+    background: #fff5e1;
+    color: #f55800;
+  }
 }
