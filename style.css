@@ -1213,6 +1213,10 @@ textarea::placeholder {
   line-height: 24px;
 }
 
+.workdesk {
+  display: none;
+}
+
 /*@font-face {
   font-family: "Crete Round";
   src: url(Crete_Round/CreteRound-Regular.ttf);
@@ -1259,6 +1263,10 @@ textarea::placeholder {
     src: url(Poppins/Poppins-Light.ttf);
   }
 
+  body {
+    background-color: #fff;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -1267,6 +1275,7 @@ textarea::placeholder {
   li {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
 
   a {
@@ -1534,9 +1543,349 @@ textarea::placeholder {
   .github {
     flex: 1;
     bottom: 91.87%;
+    min-width: 1.124375em;
   }
 
-  .work {
+  .wraps {
+    display: none;
+  }
+
+  .workdesk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color: #fff;
+  }
+
+  .articledesk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 141px;
+    margin-right: 143px;
+  }
+
+  .work-areadesk {
+    flex: 1;
+    flex-direction: column;
+
+  }
+
+  .recentdesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width: 89.5%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .desk {
+    flex: 1;
+    min-width: 40%;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 52px;
+    color: #091e42;
+    margin-top: 120px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .hr1 {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 10.659%;
+    margin-top: 123px;
+  }
+
+  .part2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image1 {
+    flex: 1;
+    max-width: 61%;
+  }
+
+  .part_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 0;
+    margin-bottom: 83px;
+  }
+
+  .store {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .languagex {
+    margin-top: 24px;
+  }
+
+  .cssw {
+    flex: 1;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border:1px solid #8993a4;
+    color: #091e42;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375em;
+    line-height: 20px;
+  }
+
+  .deskx {
+    flex: 1;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border:1px solid #8993a4;
+    margin-left: 12px;
+    color: #091e42;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375em;
+    line-height: 20px;
+  }
+
+  .trap {
+    flex: 1;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border:1px solid #8993a4;
+    margin-left: 12px;
+    color: #091e42;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375em;
+    line-height: 20px;
+  }
+
+  .rub {
+    flex: 1;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border:1px solid #8993a4;
+    margin-left: 12px;
+    color: #091e42;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375em;
+    line-height: 20px;
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .wrapper1 {
+    flex: 1;
+    display: grid;
+    min-width: 100%;
+    column-gap: 0;
+    row-gap: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    grid-template-areas: "box1 box2 box3""box4 box5 box6";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 130px;
+  }
+
+  .linking {
+    flex: 1;
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    top: 12px;
+    left: 12px;
+    width: 26.666%;
+    background-color: #ff6b00;
+    padding: 3.2%;
+  }
+  
+  .box1 {
+    grid-area: box1;
+    background-image: url(block1.png);
+    max-width: 369px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }
+
+  .titleb1 {
+    display: none;
+  }
+
+  .contentb1 {
+    display: none;
+  }
+
+  .language1b1 {
+    display: none;
+  }
+
+  .project {
+    margin-top: 277px;
+  }
+  
+  .box2 {
+    grid-area: box2;
+    background-image: url(block2.png);
+    max-width: 369px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .titleb2 {
+    margin-top: 130px;
+    margin-bottom: 0;
+    width: 337px;
+  }
+
+  .contentb2 {
+    width: 337px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    line-height: 24px;
+    margin-top: 0;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .box-text2 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+  }
+
+  .language1 {
+    margin-top: 19px;
+  }
+  
+  .html12 {
+    margin-left: 0;
+  }
+  
+  .project {
+    display: none;
+  }
+
+  .box3 {
+    grid-area: box3;
+    background-image: url(block3.png);
+    max-width: 369px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .box-text3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+  }
+
+  .titleb3 {
+    width: 337px;
+    margin-top: 173px;
+  }
+
+  .box4 {
+    grid-area: box4;
+    background-image: url(gridback.png);
+    max-width: 369px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .box-text4 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+  }
+  
+  .box5 {
+    grid-area: box5;
+    background-image: url(block2.png);
+    width: 87.2%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .box-text5 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+  }
+  
+  .box6 {
+    grid-area: box6;
+    background-image: url(block3.png);
+    width: 87.2%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .box-text6 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .titleb6 {
+    width: 337px;
+    margin-top: 170px;
+  }
+
+  .section2 {
+    background-color: #fff;
+    display: flex;
+  }
+  
+  .wrap {
+    grid-area: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+
+ 
+  /*.work {
     flex: 1;
     display: grid;
     max-width: 100%;
