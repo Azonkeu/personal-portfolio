@@ -1729,7 +1729,7 @@ textarea::placeholder {
     background-color: #ff6b00;
     padding: 3.2%;
   }
-  
+
   .box1 {
     grid-area: box1;
     background-image: url(block1.png);
@@ -1872,19 +1872,203 @@ textarea::placeholder {
   }
 
   .section2 {
-    background-color: #fff;
-    display: flex;
+    display: none;
   }
-  
+
+  .section2b {
+    background-color: #000;
+    display: flex;
+    background-image: url(Group.png);
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-y: 27%;
+  }
+
+  .boldx {
+    padding-left: 40px;
+    padding-right: 600px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hellox {
+    width: 566px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+  }
+
+  .hellospan {
+    max-width: 161px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .line {
+    max-width: 80%;
+  }
   .wrap {
     grid-area: wrap;
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
 
- 
+  .list_item {
+    display: none;
+  }
+
+  .list_item1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000;
+    padding-left: 11%;
+    padding-right: 10%;
+  }
+
+  .boldly {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+  }
+
+  .img {
+    margin-top: 0;
+  }
+
+  .bold2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+
+  .boldf {
+    margin-top: 20%;
+  }
+
+  .bold3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bolds {
+    margin-top: 33%;
+    margin-bottom: 0;
+  }
+
+  .ite {
+    display: flex;
+  }
+
+  .item1 {
+    margin-left: 0;
+    display: flex;
+    margin-right: auto;
+    align-self: center;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .iteml {
+    margin-left: 0;
+    display: flex;
+    margin-right: auto;
+    align-self: center;
+    color: #fff;
+    margin-top: 20;
+    margin-bottom: 32px;
+  }
+
+  .java {
+    padding-top: 12px;
+  }
+
+  .first {
+    padding-top: 10px;
+  }
+
+  .footer {
+    display: none;
+  }
+  .footerdesk {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  .formdiv {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+  }
+
+  .footer-text {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6em;
+    line-height: 52px;
+    color: #262626;
+    text-align: start;
+    letter-spacing: 0.03em;
+    max-width: 455px;
+    margin-top: 0;
+  }
+
+  .formx {
+    margin-left: 0;
+  }
+
+  .buttonsub {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .for1 {
+    flex: 1;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .full {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lastx {
+    flex: 1;
+    padding: 0;
+  }
+
+  .lastx input {
+    width: 240px;
+    padding-left: 10px;
+    margin-right: 40px;
+  }
+
+  input {
+    padding-bottom: 14px;
+  }
+
+  .full input {
+    padding-left: 0px;
+    padding-right: ;
+  }
   /*.work {
     flex: 1;
     display: grid;
