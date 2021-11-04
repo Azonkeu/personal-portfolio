@@ -727,7 +727,6 @@ html {
   justify-items: center;
   min-width: 87.2%;
   background-color: #ff6b00;
-  /*margin-top: 22px;*/
   margin-top: 1.388%;
   margin-bottom: 0;
 }
@@ -1438,7 +1437,7 @@ textarea::placeholder {
   .main_img {
     flex: 1;
     margin-left: 38px;
-    border: 2px #67798e
+    border: 2px #67798e;
   }
 
   .mobile {
@@ -1592,8 +1591,6 @@ textarea::placeholder {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /*padding-left: 6%;
-    padding-right: 2%;*/
   }
 
   .articledesk {
@@ -1602,7 +1599,6 @@ textarea::placeholder {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    /*padding-right: 143px;*/
     max-width: 100%;
   }
 
@@ -1650,7 +1646,6 @@ textarea::placeholder {
     flex: 1;
     display: flex;
     flex-direction: row;
-    /*margin-left: 5.791%;*/
   }
 
   .image1 {
@@ -1691,8 +1686,6 @@ textarea::placeholder {
     flex: 1;
     margin-top: 24px;
     max-width: 31%;
-    /*max-width: 448px;*/
-    /*height: 140px;*/
     letter-spacing: 0.03em;
     font-size: 17px;
     font-family: Inter, sans-serif;
@@ -1862,10 +1855,6 @@ textarea::placeholder {
     padding-top: 15px;
   }
 
-  .language1b2 {
-    padding-top: 5px;
-  }
-
   .html12 {
     margin-left: 0;
   }
@@ -1951,6 +1940,7 @@ textarea::placeholder {
     margin-left: 10%;
     margin-right: 5%;
   }
+
   .section2 {
     display: none;
   }
@@ -2192,13 +2182,13 @@ textarea::placeholder {
     padding: 0;
     overflow-x: hidden;
   }
-  
+
   body::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  
+
   html {
     max-width: 100%;
     padding: 0;
@@ -2230,9 +2220,9 @@ textarea::placeholder {
     margin-right: 5%;
   }
 
- .wrapper1 {
-   column-gap: 24px;
- }
+  .wrapper1 {
+    column-gap: 24px;
+  }
 
   .box6 {
     min-width: 24rem;
@@ -2241,7 +2231,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 1021px) and (max-width: 1260px) {
   .wrapper1 {
-   max-width: 100%; 
+    max-width: 100%;
   }
 
   body {
@@ -2251,13 +2241,13 @@ textarea::placeholder {
     padding: 0;
     overflow-x: hidden;
   }
-  
+
   body::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  
+
   html {
     max-width: 100%;
     padding: 0;
@@ -2347,4 +2337,3 @@ textarea::placeholder {
     margin-top: 24px;
   }
 }
-
