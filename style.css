@@ -2172,6 +2172,7 @@ textarea::placeholder {
 @media screen and (width: 1024px) {
   .wrapper1 {
     grid-auto-flow: column;
+    column-gap: 24px;
     grid-template-areas: "box1 box2""box3 box4""box5 box6";
   }
 
@@ -2218,10 +2219,6 @@ textarea::placeholder {
 
   .recentdesk {
     margin-right: 5%;
-  }
-
-  .wrapper1 {
-    column-gap: 24px;
   }
 
   .box6 {
