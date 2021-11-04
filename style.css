@@ -48,13 +48,22 @@ a {
 
 body {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   background-color: #fff;
   padding: 0;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 html {
   max-width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .list_item1 {
@@ -645,6 +654,7 @@ html {
   margin-right: auto;
   margin-top: 84px;
   margin-bottom: 0;
+  height: 5%;
 }
 
 .content {
@@ -658,6 +668,7 @@ html {
   width: 78.666%;
   margin-left: auto;
   margin-right: auto;
+  height: 6%;
 }
 
 .language1 {
@@ -667,7 +678,7 @@ html {
   width: 12.266%;
   margin-left: 0;
   margin-right: 20%;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   margin-top: 0;
   color: #fff;
 }
@@ -715,7 +726,8 @@ html {
   justify-items: center;
   min-width: 87.2%;
   background-color: #ff6b00;
-  margin-top: 22px;
+  /*margin-top: 22px;*/
+  margin-top: 1.388%;
   margin-bottom: 0;
 }
 
@@ -936,7 +948,7 @@ html {
   font-size: 1.0625em;
   line-height: 43px;
   margin-left: 26%;
-  margin-right: 15%;
+  margin-right: 25%;
   margin-bottom: 32px;
   margin-top: 0;
 }
@@ -1225,7 +1237,7 @@ textarea::placeholder {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   @font-face {
     font-family: "Crete Round";
     src: url(Crete_Round/CreteRound-Regular.ttf);
@@ -1277,28 +1289,36 @@ textarea::placeholder {
 
   body {
     max-width: 100%;
-    margin: 0 auto;
-    background-color: #f34;
+    margin: 0;
+    background-color: #fff;
     padding: 0;
     overflow-x: hidden;
+    -ms-overflow-style: none;
+    height: 100%;
   }
 
   body::-webkit-scrollbar {
     display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   html {
     max-width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
   }
 
   .container {
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
+    max-width: 100%;
     background-color: #3e3c3c;
     align-items: center;
     align-content: center;
     padding-right: 100px;
+    overflow-x: hidden;
   }
 
   .logo {
@@ -1331,6 +1351,13 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .navdiv {
+    flex: 1;
+    display: flex;
+    max-width: 23%;
+    margin-right: 100px;
   }
 
   .navli1 {
@@ -1393,6 +1420,8 @@ textarea::placeholder {
   }
 
   .navlink3 {
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     color: white;
     font-family: Inter, sans-serif;
@@ -1401,10 +1430,14 @@ textarea::placeholder {
     font-weight: 600;
   }
 
-  .navlink4 {
-    text-decoration: none;
-    color: white;
+  .contact {
     flex: 1;
+  }
+
+  .main_img {
+    flex: 1;
+    margin-left: 38px;
+    border: 2px #67798e
   }
 
   .mobile {
@@ -1419,6 +1452,7 @@ textarea::placeholder {
     background-image: url(pictures/background.svg);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 50%;
     width: 100%;
   }
 
@@ -1719,7 +1753,7 @@ textarea::placeholder {
     display: flex;
     margin-top: 24px;
     justify-content: center;
-    padding-bottom: 0;
+    padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 12px;
     max-height: 48px;
@@ -1993,6 +2027,10 @@ textarea::placeholder {
     display: flex;
   }
 
+  .itemrub {
+    min-width: 162px;
+  }
+
   .item1 {
     margin-left: 0;
     display: flex;
@@ -2120,6 +2158,27 @@ textarea::placeholder {
     grid-template-areas: "box1 box2""box3 box4""box5 box6";
   }
 
+  body {
+    max-width: 100%;
+    margin: 0;
+    background-color: #fff;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  html {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
   .box1 {
     min-width: 24rem;
   }
@@ -2144,3 +2203,31 @@ textarea::placeholder {
     min-width: 24rem;
   }
 }
+
+@media screen and (width: 320px) {
+  body {
+    max-width: 100%;
+    margin: 0;
+    background-color: #f34;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  html {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .title {
+    margin-top: 24px;
+  }
+}
+
