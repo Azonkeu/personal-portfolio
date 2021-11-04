@@ -64,6 +64,7 @@ html {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 .list_item1 {
@@ -334,7 +335,7 @@ html {
 
 .hr {
   flex: 1;
-  max-width: 20.4375em;
+  max-width: 100%;
   margin-top: 24px;
 }
 
@@ -1449,7 +1450,7 @@ textarea::placeholder {
     height: 870px;
     display: flex;
     flex-direction: row;
-    background-image: url(pictures/background.svg);
+    background-image: url(Pictures/background.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 50%;
@@ -1588,8 +1589,11 @@ textarea::placeholder {
     flex-direction: column;
     margin-top: 0;
     background-color: #fff;
-    width: 100%;
-    padding-left: 6%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-left: 6%;
+    padding-right: 2%;*/
   }
 
   .articledesk {
@@ -1598,22 +1602,26 @@ textarea::placeholder {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 143px;
+    /*padding-right: 143px;*/
     max-width: 100%;
   }
 
   .work-areadesk {
     flex: 1;
     flex-direction: column;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .recentdesk {
     flex: 1;
     display: flex;
     flex-direction: row;
-    max-width: 89.5%;
+    max-width: 72.5%;
     align-items: center;
     margin-bottom: 10%;
+    padding-left: 10%;
   }
 
   .desk {
@@ -1632,20 +1640,23 @@ textarea::placeholder {
 
   .hr1 {
     flex: 1;
-    min-width: 700px;
+    width: 70%;
     margin-right: 10.659%;
     margin-top: 123px;
+    padding-right: 5%;
   }
 
   .part2 {
     flex: 1;
     display: flex;
     flex-direction: row;
+    /*margin-left: 5.791%;*/
   }
 
   .image1 {
     flex: 1;
-    max-width: 61%;
+    max-width: 54%;
+    padding-left: 10%;
   }
 
   .part_text {
@@ -1653,6 +1664,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     margin-left: 24px;
+    margin-right: 5%;
     margin-top: 0;
   }
 
@@ -1667,14 +1679,20 @@ textarea::placeholder {
     margin-top: 24px;
     margin-bottom: 0;
     padding: 0;
-    max-height: 40px;
+    height: 40px;
+    max-width: 31%;
+  }
+
+  .language1b2 {
+    margin-top: 14px;
   }
 
   .daily {
     flex: 1;
     margin-top: 24px;
-    max-width: 448px;
-    max-height: 140px;
+    max-width: 31%;
+    /*max-width: 448px;*/
+    /*height: 140px;*/
     letter-spacing: 0.03em;
     font-size: 17px;
     font-family: Inter, sans-serif;
@@ -1766,7 +1784,7 @@ textarea::placeholder {
 
   .wrapper1 {
     display: grid;
-    max-width: 1440px;
+    max-width: 100%;
     column-gap: 0;
     row-gap: 37px;
     margin-top: 24px;
@@ -1809,10 +1827,6 @@ textarea::placeholder {
 
   .language1b1 {
     display: none;
-  }
-
-  .project {
-    margin-top: 315px;
   }
 
   .box2 {
@@ -1927,6 +1941,16 @@ textarea::placeholder {
     margin-top: 170px;
   }
 
+  .project {
+    margin-top: 330px;
+  }
+
+  .wraping {
+    display: flex;
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
   .section2 {
     display: none;
   }
@@ -1966,8 +1990,11 @@ textarea::placeholder {
     padding-right: 0;
   }
 
-  .line {
+  .line1 {
+    flex: 1;
     max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .wrap {
@@ -2199,8 +2226,98 @@ textarea::placeholder {
     min-width: 24rem;
   }
 
+  .recentdesk {
+    margin-right: 5%;
+  }
+
+ .wrapper1 {
+   column-gap: 24px;
+ }
+
   .box6 {
     min-width: 24rem;
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1260px) {
+  .wrapper1 {
+   max-width: 100%; 
+  }
+
+  body {
+    max-width: 100%;
+    margin: 0;
+    background-color: #fff;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  html {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .wraping {
+    max-width: 100%;
+    margin-right: 5%;
+  }
+
+  .box1 {
+    max-width: 19rem;
+  }
+
+  .box2 {
+    max-width: 19rem;
+  }
+
+  .recentdesk {
+    margin-right: 5%;
+  }
+
+  .titleb2 {
+    margin-top: 53px;
+    margin-bottom: 0;
+    width: 337px;
+  }
+
+  .box3 {
+    max-width: 19rem;
+  }
+
+  .titleb3 {
+    margin-top: 55px;
+    margin-bottom: 0;
+    width: 337px;
+  }
+
+  .titleb6 {
+    margin-top: 53px;
+    margin-bottom: 0;
+    width: 337px;
+  }
+
+  .project {
+    margin-top: 265px;
+  }
+
+  .box4 {
+    max-width: 19rem;
+  }
+
+  .box5 {
+    max-width: 19rem;
+  }
+
+  .box6 {
+    max-width: 19rem;
   }
 }
 
@@ -2208,7 +2325,7 @@ textarea::placeholder {
   body {
     max-width: 100%;
     margin: 0;
-    background-color: #f34;
+    background-color: #fff;
     padding: 0;
     overflow-x: hidden;
   }
