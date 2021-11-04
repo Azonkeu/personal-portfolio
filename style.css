@@ -218,7 +218,7 @@ html {
   flex-direction: row;
   justify-content: flex-start;
   margin-left: 9.336%;
-  max-width: 47.730%;
+  max-width: 47.73%;
   margin-top: 22px;
   margin-bottom: 130px;
   margin-right: 17.384%;
@@ -243,7 +243,7 @@ html {
   right: 96.11%;
   left: 2.5%;
   margin-left: 6.112%;
-  width: 5.330%;
+  width: 5.33%;
 }
 
 .angel-listx {
@@ -288,7 +288,6 @@ html {
   padding-left: 6.4%;
   padding-right: 6.4%;
   display: flex;
-
 }
 
 .wraps {
@@ -328,7 +327,6 @@ html {
   flex: 1;
   max-width: 20.4375em;
   margin-top: 24px;
-
 }
 
 .image {
@@ -399,7 +397,7 @@ html {
   padding-right: 3.2%;
   padding-top: 2.666%;
   padding-bottom: 2.666%;
-  border:1px solid #8993a4;
+  border: 1px solid #8993a4;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -423,7 +421,7 @@ html {
   padding-right: 3.2%;
   padding-top: 2.666%;
   padding-bottom: 2.666%;
-  border:1px solid #8993a4;
+  border: 1px solid #8993a4;
   margin-left: 3.2%;
   margin-bottom: 0;
 }
@@ -447,7 +445,7 @@ html {
   padding-right: 3.2%;
   padding-top: 2.666%;
   padding-bottom: 2.666%;
-  border:1px solid #8993a4;
+  border: 1px solid #8993a4;
   margin-left: 3.2%;
   margin-bottom: 0;
   flex-shrink: 4;
@@ -474,7 +472,7 @@ html {
   margin-top: 0;
   padding-top: 2.666%;
   padding-bottom: 2.666%;
-  border:1px solid #8993a4;
+  border: 1px solid #8993a4;
   margin-left: 3.2%;
 }
 
@@ -696,7 +694,6 @@ html {
   min-width: 22.933%;
   margin-top: 0;
   line-height: 20px;
-  margin-left: 0.75em;
   margin-bottom: 0;
 }
 
@@ -767,7 +764,6 @@ html {
   flex-direction: column;
   justify-items: center;
   width: 100%;
-  
 }
 
 .list_item {
@@ -787,7 +783,7 @@ html {
 
 .img {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: row;
   color: #fff;
   margin-top: 136.73px;
@@ -828,7 +824,7 @@ html {
 
 .boldf {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -883,7 +879,7 @@ html {
 
 .bolds {
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
@@ -920,7 +916,6 @@ html {
   font-weight: normal;
   font-size: 1.0625em;
   line-height: 43px;
-  text-align: center;
  /* margin-right: 13.333%;*/
   margin-left: auto;
   margin-right: auto;
@@ -943,7 +938,6 @@ html {
   font-weight: normal;
   font-size: 1.0625em;
   line-height: 43px;
-  text-align: center;
   /*margin-right: 8%;*/
   margin-left: 26%;
   margin-right: 15%;
@@ -1111,7 +1105,6 @@ input::placeholder {
   width: 87.2%;
   margin-right: 6.4%;
   margin-left: auto;
-  margin-right: auto;
 }
 
 .for {
@@ -1237,7 +1230,7 @@ textarea::placeholder {
   display: none;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   @font-face {
     font-family: "Crete Round";
     src: url(Crete_Round/CreteRound-Regular.ttf);
@@ -1576,7 +1569,6 @@ textarea::placeholder {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    /*padding-left: 6.5%;*/
     padding-right: 143px;
     max-width: 100%;
   }
@@ -1650,7 +1642,7 @@ textarea::placeholder {
   }
 
   .daily {
-    font: 1;
+    flex: 1;
     margin-top: 24px;
     max-width: 448px;
     max-height: 140px;
@@ -1667,7 +1659,7 @@ textarea::placeholder {
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 3px;
-    border:1px solid #8993a4;
+    border: 1px solid #8993a4;
     color: #091e42;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -1683,7 +1675,7 @@ textarea::placeholder {
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 3px;
-    border:1px solid #8993a4;
+    border: 1px solid #8993a4;
     margin-left: 12px;
     color: #091e42;
     font-family: Inter, sans-serif;
@@ -1700,7 +1692,7 @@ textarea::placeholder {
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 3px;
-    border:1px solid #8993a4;
+    border: 1px solid #8993a4;
     margin-left: 12px;
     color: #091e42;
     font-family: Inter, sans-serif;
@@ -1717,7 +1709,7 @@ textarea::placeholder {
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 3px;
-    border:1px solid #8993a4;
+    border: 1px solid #8993a4;
     margin-left: 12px;
     color: #091e42;
     font-family: Inter, sans-serif;
@@ -1748,11 +1740,8 @@ textarea::placeholder {
     max-width: 1440px;
     column-gap: 0;
     row-gap: 37px;
-    /*margin-left: auto;
-    margin-right: auto;*/
     margin-top: 24px;
     grid-template-areas: "box1 box2 box3""box4 box5 box6";
-    grid-template-columns: ;
     margin-bottom: 130px;
   }
 
@@ -1794,7 +1783,7 @@ textarea::placeholder {
   }
 
   .project {
-    margin-top: 277px;
+    margin-top: 315px;
   }
 
   .box2 {
@@ -1830,16 +1819,13 @@ textarea::placeholder {
     padding-top: 15px;
   }
 
-  .language1 {
-    margin-top: 19px;
+  .language1b2 {
+    /*margin-top: 15px;*/
+    padding-top: 5px;
   }
 
   .html12 {
     margin-left: 0;
-  }
-  
-  .project {
-    display: none;
   }
 
   .box3 {
@@ -1955,6 +1941,7 @@ textarea::placeholder {
   .line {
     max-width: 80%;
   }
+
   .wrap {
     grid-area: wrap;
     display: flex;
@@ -2028,7 +2015,6 @@ textarea::placeholder {
     margin-right: auto;
     align-self: center;
     color: #fff;
-    margin-top: 20;
     margin-bottom: 32px;
   }
 
@@ -2043,6 +2029,7 @@ textarea::placeholder {
   .footer {
     display: none;
   }
+
   .footerdesk {
     display: flex;
     flex-direction: column;
@@ -2098,18 +2085,18 @@ textarea::placeholder {
     padding: 0;
   }
 
+  input {
+    padding-bottom: 14px;
+  }
+
   .lastx input {
     width: 220px;
     padding-left: 10px;
     margin-right: 35px;
   }
 
-  input {
-    padding-bottom: 14px;
-  }
-
   .full input {
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .linke {
