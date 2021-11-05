@@ -1492,6 +1492,31 @@ textarea::placeholder {
     margin-top: 192px;
     margin-bottom: 0;
     align-self: center;
+    transition-property: color;
+    transition-duration: 10s;
+    transition-delay: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-duration: 10s;
+  }
+
+  @keyframes slidein {
+    
+    from {
+      margin-left: 100%;
+      width: 200%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    
+  }
+
+  .hey-there:hover {
+    color: #71d41a;
   }
 
   .software {
