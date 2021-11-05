@@ -1008,6 +1008,10 @@ html {
   border-style: solid;
   padding-top: 12px;
   padding-bottom: 12px;
+  transition-property: font-size;
+  transition-duration: 10s;
+  transition-delay: 2s;
+
 }
 
 .hellospan:enabled {
@@ -1017,6 +1021,7 @@ html {
 .hellospan:hover {
   background: #fff5e1;
   color: #f55800;
+  font-size: 20px;
 }
 
 .hellospan:active {
