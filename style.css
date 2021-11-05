@@ -1561,6 +1561,23 @@ textarea::placeholder {
     margin-top: 279px;
     margin-bottom: 339px;
     max-height: 335.04px;
+    animation-name: icon-slide-up;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+  @keyframes icon-slide-up {
+    from {
+      margin-top: 100%;
+      height: 100%;
+    }
+
+    to {
+      margin-top: 0%;
+      height: 100%;
+    }
   }
 
   .icon1 {
