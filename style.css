@@ -1348,6 +1348,13 @@ textarea::placeholder {
     line-height: 20px;
     font-weight: bold;
     align-self: center;
+    transition-property: font-weight, font-size, color;
+  }
+
+  .author:hover {
+    color: #f4e96d;
+    font-size: 21px;
+    font-weight: bold;
   }
 
   .nav {
@@ -1696,6 +1703,15 @@ textarea::placeholder {
     flex: 1;
     max-width: 54%;
     padding-left: 10%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+  }
+
+  .image1:hover {
+    transform: scale(1.05);
   }
 
   .part_text {
