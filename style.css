@@ -1011,7 +1011,6 @@ html {
   transition-property: font-size;
   transition-duration: 10s;
   transition-delay: 2s;
-
 }
 
 .hellospan:enabled {
@@ -1502,7 +1501,6 @@ textarea::placeholder {
   }
 
   @keyframes slidein {
-    
     from {
       margin-left: 100%;
       width: 200%;
@@ -1512,7 +1510,6 @@ textarea::placeholder {
       margin-left: 0%;
       width: 100%;
     }
-    
   }
 
   .hey-there:hover {
