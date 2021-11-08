@@ -20,7 +20,7 @@ In this project, you will set up a mobile version of a portfolio website. To beg
 * You must stick to the design as much as possible (e.g. font, colors, images, tests, margins) using the [templates in Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1).
 * Implement the button interactions (enable, hover, etc.).
 
-Check out [my repository](https://github.com/Azonkeu/personal-portfolio/pull/1) for more details.
+Check out [my repository](https://github.com/Azonkeu/personal-portfolio/pull/1) for more details. Please click on this link to look at the live version of the [portfolio website](https://azonkeu.github.io/personal-portfolio/).
 
 ### Built With
 * Major languages: Html5, Css3, Markdown
