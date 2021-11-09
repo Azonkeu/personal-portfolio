@@ -1137,6 +1137,7 @@ textarea {
   line-height: 24px;
 }
 
+
 .buttonsub {
   flex: 1;
   display: flex;
@@ -1237,6 +1238,9 @@ textarea::placeholder {
   line-height: 24px;
 }
 
+textarea:focus-visible {
+  background-color: lightgray;
+}
 .workdesk {
   display: none;
 }
@@ -2211,6 +2215,10 @@ textarea::placeholder {
 
   input {
     padding-bottom: 14px;
+  }
+
+  input:focus {
+    background-color: lightgray;
   }
 
   .lastx input {
