@@ -1506,9 +1506,9 @@ textarea:focus-visible {
     transition-duration: 10s;
     transition-delay: 2s;
     animation-name: slidein;
-    animation-iteration-count: 4;
+    animation-iteration-count: 2;
     animation-direction: alternate;
-    animation-duration: 10s;
+    animation-duration: 5s;
   }
 
   @keyframes slidein {
