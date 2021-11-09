@@ -736,7 +736,7 @@ html {
   text-align: center;
   align-self: center;
   width: 26.666%;
-  color: #fff;
+  color: #fffff1;
   top: 12px;
   left: 12px;
   margin-top: 12px;
@@ -1150,7 +1150,7 @@ textarea {
 
 .button_form {
   flex: 1;
-  color: #fff;
+  color: #fffff1;
   background-color: #ff6b00;
   min-width: 34.9333%;
   font-family: Inter, sans-serif;
@@ -1235,6 +1235,10 @@ textarea::placeholder {
   font-weight: normal;
   font-size: 0.9375em;
   line-height: 24px;
+}
+
+textarea:focus-visible {
+  background-color: lightgray;
 }
 
 .workdesk {
@@ -1502,9 +1506,9 @@ textarea::placeholder {
     transition-duration: 10s;
     transition-delay: 2s;
     animation-name: slidein;
-    animation-iteration-count: 4;
+    animation-iteration-count: 2;
     animation-direction: alternate;
-    animation-duration: 10s;
+    animation-duration: 5s;
   }
 
   @keyframes slidein {
@@ -1669,6 +1673,7 @@ textarea::placeholder {
     align-items: center;
     margin-bottom: 10%;
     padding-left: 10%;
+    font-size: 1em;
   }
 
   .desk {
@@ -1824,6 +1829,7 @@ textarea::placeholder {
     display: flex;
     margin-top: 24px;
     justify-content: center;
+    color: #fffff1;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 12px;
@@ -1888,6 +1894,10 @@ textarea::placeholder {
 
   .language1b1 {
     display: none;
+  }
+
+  .projectlink {
+    color: #fffff1;
   }
 
   .box2 {
@@ -2046,6 +2056,7 @@ textarea::placeholder {
     max-width: 161px;
     padding-left: 0;
     padding-right: 0;
+    color: #fffff1;
   }
 
   .line1 {
@@ -2204,6 +2215,10 @@ textarea::placeholder {
 
   input {
     padding-bottom: 14px;
+  }
+
+  input:focus {
+    background-color: lightgray;
   }
 
   .lastx input {
