@@ -90,7 +90,6 @@ html {
 }
 
 .navblock {
-  height: 100%;
   background-color: #3c3a39;
   height: 100%;
   width: 0;
@@ -106,7 +105,7 @@ html {
 .navblock a {
   color: #fff5e1;
   padding: 14px 16px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2em;
