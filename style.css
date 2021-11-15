@@ -165,7 +165,8 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 1.5em;
+    margin-right: 1em;
+    margin-left: 2.5em;
 }
 
 .navdivx {
