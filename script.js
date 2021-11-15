@@ -4,17 +4,24 @@ hamburgerMenu.addEventListener('click', () => {
 });
 
 const closeNavBlock = document.getElementById('closeNav');
-  closeNavBlock.addEventListener('click', () => {  
+closeNavBlock.addEventListener('click', () => {
   document.getElementById('navMenu').style.display = 'none';
 });
 
-function hideNavblock() {
-  const navMenuBlock = document.getElementById('navMenu');
-  if (navMenuBlock.style.display === 'none') {
-    navMenuBlock.style.display = 'block';
-  } else {
-    navMenuBlock.style.display = 'none';
-  }
+const openNavlink = document.getElementById('portfolio');
+openNavlink.addEventListener('click', () => { 
+  document.getElementById('navMenu').style.display = 'none';
   window.location.reload();
-}
+});
 
+const openlinkAbout = document.getElementById('about');
+openlinkAbout.addEventListener('click', () => { 
+  document.getElementById('navMenu').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkContact = document.getElementById('contact');
+openlinkContact.addEventListener('click', () => { 
+  document.getElementById('navMenu').style.display = 'none';
+  window.location.reload();
+});
