@@ -1,21 +1,20 @@
-const element = document.getElementById('hamNenu');
-element.addEventListener('click', () => {
+const hamburgerMenu = document.getElementById('hamNenu');
+hamburgerMenu.addEventListener('click', () => {
   document.getElementById('navMenu').style.width = '100%';
 });
 
-function closeNavMenu() {
-  document.getElementById('navMenu').style.width = '0';
-  document.getElementById('navxid').style.marginLeft = '0';
-}
-closeNavMenu();
+const closeNavBlock = document.getElementById('closeNav');
+  closeNavBlock.addEventListener('click', () => {  
+  document.getElementById('navMenu').style.display = 'none';
+});
 
-function hidenavblock() {
-  const x = document.getElementById('navMenu');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
+function hideNavblock() {
+  const navMenuBlock = document.getElementById('navMenu');
+  if (navMenuBlock.style.display === 'none') {
+    navMenuBlock.style.display = 'block';
   } else {
-    x.style.display = 'none';
+    navMenuBlock.style.display = 'none';
   }
   window.location.reload();
 }
-hidenavblock();
+
