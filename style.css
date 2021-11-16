@@ -46,6 +46,167 @@ a {
   max-width: 100%;
 }
 
+.mainpopupBloc {
+  display: none;
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 12%;
+  padding-bottom: 221px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-image: url(Pictures/popphoneback.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.popupBloc {
+  display: flex;
+  flex-direction: column;
+  min-width: 91.466%;
+  padding-bottom: 4%;
+  background-color: #fff;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 1px solid #dFe1e6;
+}
+
+.closepopupBloc {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding-right: 8%;
+}
+
+.titlepop {
+  flex: 1;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 44px;
+  margin-right: 0;
+}
+
+.closetitlepop {
+  flex: 1;
+  top: 0;
+  max-width: 13px;
+  margin-left: 0;
+}
+
+.langlist {
+ flex: 1;
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 5%;
+}
+
+.listitem1 {
+  flex: 1;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8125em;
+  padding: 1% 1% 1% 1%;
+  line-height: 16px;
+  outline: 1px solid black;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.listht {
+  max-width: 15%;
+}
+
+.listbo {
+  max-width: 28%;
+}
+
+.listru {
+  max-width: 35%;
+}
+
+.imagePopup {
+  width: 100%;
+}
+
+.textPopup {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 24px;
+  width: 100%;
+}
+
+.buttonBlocicon {
+  display: flex;
+  max-width: 91%;
+  flex-direction: row;
+}
+
+.buttonpop {
+  flex: 1;
+  display: flex;
+  width: 40%;
+  color: #fff;
+  margin-right: 6%;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  border: none;
+  padding-left: 3%;
+}
+
+.buttonpopsecond {
+  flex: 1;
+  display: flex;
+  width: 46%;
+  color: #fff;
+  height: 48px;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.03em;
+  border: none;
+  padding-left: 3%;
+  align-items: center;
+}
+
+.buttonpopimg {
+  margin-left: 4%;
+}
+
+.buttonpopimg {
+  margin-left: 4%;
+}
+
+.buttonpopsecondimg {
+  margin-left: 4%;
+}
+
+.popupBlocDesk {
+  display: none;
+}
+
 body {
   max-width: 100%;
   margin: 0;
@@ -1312,6 +1473,176 @@ textarea:focus-visible {
   @font-face {
     font-family: "Poppins";
     src: url(Poppins/Poppins-Light.ttf);
+  }
+
+  .mainpopupBloc {
+    display: none;
+  }
+
+  .popupBlocDeskmain {
+    display: none;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    max-width: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-image: url(Pictures/popbackgrdesk.svg);
+  }
+
+  .popupBlocDesk {
+    display: flex;
+    max-width: 80%;
+    min-height: 631px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.076%;
+    background-color: #fff;
+    padding-bottom: 7%;
+    padding-right: 2.076%;;
+  }
+
+  .popsBlocDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
+  }
+
+  .langlistDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+  }
+
+  .lang-list-Desk-item {
+    flex: 1;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8125em;
+    padding: 1% 1% 2% 1%;
+    line-height: 16px;
+    outline: 1px solid black;
+    margin-right: 1%;
+    text-align: center;
+    height: 19%;
+  }
+
+  .titlepopDesk {
+    flex: 1;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 44px;
+  }
+
+  .listhtDesk {
+    max-width: 5%;
+  }
+  
+  .listboDesk {
+    max-width: 8%;
+  }
+  
+  .listruDesk {
+    max-width: 8%;
+  }
+
+  .deskmain {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deskmainimage {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 25px;
+  }
+
+  .buttonBlocDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deskmaindiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .deskmaintext {
+    flex: 1;
+    font-family: Inter, sans-serif;
+    width: 424px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 30px;
+    color: #344563;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .buttonBlockDesk {
+    flex: 1;
+    display: flex;
+    max-width: 10%;
+  }
+
+  .buttonpopDesk {
+    flex: 1;
+    height: 48px;
+    max-width: 130px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
+
+  .imageDeskbutton1 {
+    margin-left: 15%;
+  }
+
+  .buttonpopsecondDesk {
+    flex: 1;
+    height: 48px;
+    max-width: 149px;
+    margin-left: 3%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
+
+  .imageDeskbutton {
+    margin-left: 9%;
   }
 
   ul {
