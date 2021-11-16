@@ -89,6 +89,43 @@ html {
   max-width: 100%;
 }
 
+.navblock {
+  background-color: #3c3a39;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.navblock a {
+  color: #fff5e1;
+  padding: 14px 16px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 44px;
+  display: block;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 10px 24px 24px 24px;
+}
+
+.navblock .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: #67798e;
+  margin-left: 50px;
+  border: none;
+}
+
 .container {
   display: none;
 }
@@ -127,7 +164,8 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 1.5em;
+  margin-right: 1em;
+  margin-left: 2.5em;
 }
 
 .navdivx {
@@ -608,7 +646,7 @@ html {
   margin-left: 6.4%;
   margin-right: 6.4%;
   margin-top: 24px;
-  grid-template-areas: "box1""box2""box3""box4""box5""box6";
+  grid-template-areas: "box1" "box2" "box3" "box4" "box5" "box6";
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -1421,7 +1459,7 @@ textarea:focus-visible {
     font-size: 15px;
     font-weight: 600;
     font-style: normal;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .navlink2 {
@@ -1855,7 +1893,7 @@ textarea:focus-visible {
     column-gap: 0;
     row-gap: 37px;
     margin-top: 24px;
-    grid-template-areas: "box1 box2 box3""box4 box5 box6";
+    grid-template-areas: "box1 box2 box3" "box4 box5 box6";
     margin-bottom: 130px;
   }
 
@@ -2257,7 +2295,7 @@ textarea:focus-visible {
   .wrapper1 {
     grid-auto-flow: column;
     column-gap: 24px;
-    grid-template-areas: "box1 box2""box3 box4""box5 box6";
+    grid-template-areas: "box1 box2" "box3 box4" "box5 box6";
   }
 
   body {
