@@ -126,6 +126,88 @@ html {
   border: none;
 }
 
+.mainpopupBloc {
+  display: none;
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 12%;
+  padding-bottom: 221px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popupBloc {
+  display: flex;
+  flex-direction: column;
+  min-width: 91.466%;
+  background-color: #fff;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 1px solid #dfe1e6;
+}
+
+.closepopupBloc {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding-right: 8%;
+}
+
+.titlepop {
+  flex: 1;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 44px;
+  margin-right: 0;
+}
+
+.closetitlepop {
+  flex: 1;
+  top: 0;
+  max-width: 13px;
+  margin-left: 0;
+}
+
+.langlist {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.listitem1 {
+  flex: 1;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8125em;
+  padding: 1% 1% 1% 1%;
+  line-height: 16px;
+  outline: 1px solid black;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.listht {
+  max-width: 15%;
+}
+
+.listbo {
+  max-width: 28%;
+}
+
+
 .container {
   display: none;
 }
