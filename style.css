@@ -1466,6 +1466,84 @@ textarea:focus-visible {
     src: url(Poppins/Poppins-Light.ttf);
   }
 
+  .mainpopupBloc {
+    display: none;
+  }
+
+  .popupBlocDeskmain {
+    display: none;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    max-width: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .popupBlocDesk {
+    display: flex;
+    max-width: 80%;
+    min-height: 631px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.076%;
+    background-color: #fff;
+    padding-bottom: 7%;
+    padding-right: 2.076%;
+  }
+
+  .popsBlocDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
+  }
+
+  .langlistDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+  }
+
+  .lang-list-Desk-item {
+    flex: 1;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8125em;
+    padding: 1% 1% 2% 1%;
+    line-height: 16px;
+    outline: 1px solid black;
+    margin-right: 1%;
+    text-align: center;
+    height: 19%;
+  }
+
+  .titlepopDesk {
+    flex: 1;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 44px;
+  }
+
+  .listhtDesk {
+    max-width: 5%;
+  }
+
+  .listboDesk {
+    max-width: 8%;
+  }
+
   ul {
     margin: 0;
     padding: 0;
