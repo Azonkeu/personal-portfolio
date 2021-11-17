@@ -146,3 +146,21 @@ const arrayButton = [];
 arrayButton.push(buttonBlock);
 arrayButton.push(buttonFirst);
 arrayButton.push(buttonSecond);
+
+
+arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/personal-portfolio/';
+};
+
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/personal-portfolio';
+};
+
+const textArr = [];
+textArr.push(popUpText);
+
+const popUpObject = {};
+popUpObject.htmlelement = popUpArray;
+popUpObject.images = popUpSecondArr;
+popUpObject.button = arrayButton;
+popUpObject.Text = textArr;
