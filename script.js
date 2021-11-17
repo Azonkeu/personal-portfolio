@@ -147,7 +147,6 @@ arrayButton.push(buttonBlock);
 arrayButton.push(buttonFirst);
 arrayButton.push(buttonSecond);
 
-
 arrayButton[1].onclick = function redirectionMobile() {
   window.location.href = 'https://azonkeu.github.io/personal-portfolio/';
 };
