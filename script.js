@@ -137,31 +137,31 @@ document.querySelector('#closetitlePop').addEventListener('click', () => {
   document.querySelector('.mainpopupBloc').style.display = 'none';
 });
 
-buttonTag.onclick = function popUpAppear () {
+buttonTag.onclick = function popUpAppear() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink1.onclick = function popUpAppearbl1 () {
+cardLink1.onclick = function popUpAppearbl1() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink2.onclick = function popUpAppearbl2 () {
+cardLink2.onclick = function popUpAppearbl2() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink3.onclick = function popUpAppearbl3 () {
+cardLink3.onclick = function popUpAppearbl3() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink4.onclick = function popUpAppearbl4 () {
+cardLink4.onclick = function popUpAppearbl4() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink5.onclick = function popUpAppearbl5 () {
+cardLink5.onclick = function popUpAppearbl5() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink6.onclick = function popUpAppearbl6 () {
+cardLink6.onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
 };
 
@@ -219,15 +219,12 @@ const popPictureDesk = document.createElement('img');
 popPictureDesk.src = 'Pictures/Snapshoot-desktop.png';
 popPictureDesk.className = 'deskmainimage';
 
-
 const blockTextDesk = document.createElement('div');
 blockTextDesk.className = 'deskmaindiv';
-
 
 const popUpTextDesk = document.createElement('p');
 blockTextDesk.className = 'deskmaintext';
 popUpTextDesk.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.";
-
 
 const buttonBlockDesk = document.createElement('div');
 buttonBlockDesk.id = 'buttonDivDesk';
@@ -274,15 +271,15 @@ document.querySelector('#closetitlePops').addEventListener('click', () => {
   document.querySelector('.popupBlocDeskmain').style.display = 'none';
 });
 
-buttonTagDesk.onclick = function popDeskAppear () {
+buttonTagDesk.onclick = function popDeskAppear() {
   popUpmenuDesk.style.display = 'block';
 };
 
-anchorTagDesk.onclick = function popDeskAppear1 () {
+anchorTagDesk.onclick = function popDeskAppear1() {
   popUpmenuDesk.style.display = 'block';
 };
 
-const resizeScreen = window.addEventListener('resize', function() {
+window.addEventListener('resize', function resizeScreen() {
   if (window.innerWidth > 902) {
     document.querySelector('.mainpopupBloc').style.display = 'none';
     document.querySelector('.popupBlocDeskmain').style.width = '100%';
