@@ -164,3 +164,55 @@ popUpObject.htmlelement = popUpArray;
 popUpObject.images = popUpSecondArr;
 popUpObject.button = arrayButton;
 popUpObject.Text = textArr;
+
+const popUpmenu = document.getElementById('mainpopupDiv');
+const buttonTag = document.getElementById('projectpop');
+const cardLink1 = document.getElementById('blockn6');
+const cardLink2 = document.getElementById('blockn5');
+const cardLink3 = document.getElementById('blockn4');
+const cardLink4 = document.getElementById('blockn3');
+const cardLink5 = document.getElementById('blockn2');
+const cardLink6 = document.getElementById('blockn1');
+
+const constArr = [];
+constArr.push(popUpmenu);
+constArr.push(buttonTag);
+constArr.push(cardLink1);
+constArr.push(cardLink2);
+constArr.push(cardLink3);
+constArr.push(cardLink4);
+constArr.push(cardLink5);
+constArr.push(cardLink6);
+
+document.querySelector('#closetitlePop').addEventListener('click', () => {
+  document.querySelector('.mainpopupBloc').style.display = 'none';
+});
+
+constArr[1].onclick = function popUpAppear() {
+  popUpmenu.style.display = 'block';
+};
+
+constArr[2].onclick = function popUpAppearbl1() {
+  popUpmenu.style.display = 'block';
+};
+
+constArr[3].onclick = function popUpAppearbl2() {
+  popUpmenu.style.display = 'block';
+};
+
+constArr[4].onclick = function popUpAppearbl3() {
+  popUpmenu.style.display = 'block';
+};
+
+constArr[5].onclick = function popUpAppearbl4() {
+  popUpmenu.style.display = 'block';
+};
+
+constArr[6].onclick = function popUpAppearbl5() {
+  popUpmenu.style.display = 'block';
+};
+
+constArr[7].onclick = function popUpAppearbl6() {
+  popUpmenu.style.display = 'block';
+};
+
