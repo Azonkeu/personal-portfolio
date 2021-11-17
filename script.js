@@ -216,3 +216,165 @@ constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
 };
 
+const mainpopupBlockDesk = document.createElement('div');
+mainpopupBlockDesk.id = 'popupDivDeskmain';
+mainpopupBlockDesk.className = 'popupBlocDeskmain';
+
+const popupBlockDesk = document.createElement('div');
+popupBlockDesk.id = 'popupDivDesk';
+popupBlockDesk.className = 'popupBlocDesk';
+mainpopupBlockDesk.appendChild(popupBlockDesk);
+
+const popsBlockDesk = document.createElement('div');
+popsBlockDesk.id = 'popsDivDesk';
+popsBlockDesk.className = 'popsBlocDesk';
+popupBlockDesk.appendChild(popsBlockDesk);
+
+const titleDesk = document.createElement('h3');
+titleDesk.id = 'titlePopDesk';
+titleDesk.className = 'titlepopDesk';
+titleDesk.textContent = 'Keeping track of hundreds  of components website';
+popsBlockDesk.appendChild(titleDesk);
+
+const closeTitleDesk = document.createElement('img');
+closeTitleDesk.id = 'closetitlePops';
+closeTitleDesk.className = 'closetitlepop';
+closeTitleDesk.src = 'Pictures/close.svg';
+popsBlockDesk.appendChild(closeTitleDesk);
+
+const unorderedlistDesk = document.createElement('ul');
+unorderedlistDesk.id = 'listlangDesk';
+unorderedlistDesk.className = 'langlistDesk';
+popupBlockDesk.appendChild(unorderedlistDesk);
+
+const listitemDesk = document.createElement('li');
+listitemDesk.textContent = 'html';
+listitemDesk.className = 'lang-list-Desk-item listhtDesk';
+
+const listitem1Desk = document.createElement('li');
+listitem1Desk.textContent = 'Bootstrap';
+listitem1Desk.className = 'lang-list-Desk-item listboDesk';
+
+const listitem2Desk = document.createElement('li');
+listitem2Desk.textContent = 'Ruby on rails';
+listitem2Desk.className = 'lang-list-Desk-item listruDesk';
+
+const blockDesk = document.createElement('div');
+blockDesk.id = 'deskmainid';
+blockDesk.className = 'deskmain';
+popupBlockDesk.appendChild(blockDesk);
+
+const popPictureDesk = document.createElement('img');
+popPictureDesk.src = 'Pictures/Snapshoot-desktop.png';
+popPictureDesk.className = 'deskmainimage';
+
+const blockTextDesk = document.createElement('div');
+blockTextDesk.className = 'deskmaindiv';
+
+const popUpTextDesk = document.createElement('p');
+blockTextDesk.className = 'deskmaintext';
+popUpTextDesk.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.";
+
+const buttonBlockDesk = document.createElement('div');
+buttonBlockDesk.id = 'buttonDivDesk';
+buttonBlockDesk.className = 'buttonBlocDesk';
+
+const buttonFirstDesk = document.createElement('button');
+buttonFirstDesk.id = 'buttonPopDesk';
+buttonFirstDesk.className = 'buttonpopDesk';
+buttonFirstDesk.src = 'Pictures/popup-pic.png';
+buttonFirstDesk.textContent = 'See Live';
+
+const buttonimgDesk = document.createElement('img');
+buttonimgDesk.src = 'Pictures/arrow.svg';
+buttonimgDesk.className = 'imageDeskbutton1';
+
+const buttonSecondDesk = document.createElement('button');
+buttonSecondDesk.id = 'buttonPopsecondDesk';
+buttonSecondDesk.className = 'buttonpopsecondDesk';
+buttonSecondDesk.src = 'Pictures/popup-pic.png';
+buttonSecondDesk.textContent = 'See Source';
+
+const buttonimgsecDesk = document.createElement('img');
+buttonimgsecDesk.src = 'Pictures/githubpopup.svg';
+buttonimgsecDesk.className = 'imageDeskbutton';
+
+document.body.appendChild(mainpopupBlockDesk);
+unorderedlistDesk.appendChild(listitemDesk);
+unorderedlistDesk.appendChild(listitem1Desk);
+unorderedlistDesk.appendChild(listitem2Desk);
+blockDesk.appendChild(popPictureDesk);
+blockDesk.appendChild(blockTextDesk);
+blockTextDesk.appendChild(popUpTextDesk);
+blockTextDesk.appendChild(buttonBlockDesk);
+buttonBlockDesk.appendChild(buttonFirstDesk);
+buttonFirstDesk.appendChild(buttonimgDesk);
+buttonBlockDesk.appendChild(buttonSecondDesk);
+buttonSecondDesk.appendChild(buttonimgsecDesk);
+
+const popUpArrayDesk = [];
+popUpArrayDesk.push(mainpopupBlockDesk);
+popUpArrayDesk.push(popupBlockDesk);
+popUpArrayDesk.push(popsBlockDesk);
+popUpArrayDesk.push(unorderedlistDesk);
+popUpArrayDesk.push(listitemDesk);
+popUpArrayDesk.push(listitem1Desk);
+popUpArrayDesk.push(listitem2Desk);
+popUpArrayDesk.push(blockDesk);
+popUpArrayDesk.push(blockTextDesk);
+popUpArrayDesk.push(buttonBlockDesk);
+
+const popUpSecondArrDesk = [];
+popUpSecondArrDesk.push(closeTitleDesk);
+popUpSecondArrDesk.push(popPictureDesk);
+popUpSecondArrDesk.push(buttonimgDesk);
+popUpSecondArrDesk.push(buttonimgsecDesk);
+
+const arrayButtonDesk = [];
+arrayButtonDesk.push(buttonFirstDesk);
+arrayButtonDesk.push(buttonSecondDesk);
+
+arrayButtonDesk[0].onclick = function redirectionLive() {
+  window.location.href = 'https://azonkeu.github.io/personal-portfolio/';
+};
+
+arrayButtonDesk[1].onclick = function redirection() {
+  window.location.href = 'https://github.com/Azonkeu/personal-portfolio';
+};
+
+const textArrDesk = [];
+textArrDesk.push(titleDesk);
+textArrDesk.push(popUpTextDesk);
+
+popUpObject.htmlcontainers = popUpArrayDesk;
+popUpObject.imagesDesk = popUpSecondArrDesk;
+popUpObject.buttonDesk = arrayButtonDesk;
+popUpObject.TextDesk = textArrDesk;
+
+const popUpmenuDesk = document.getElementById('popupDivDeskmain');
+const buttonTagDesk = document.getElementById('projectDesk');
+const anchorTagDesk = document.getElementById('anchor');
+
+const dataArr = [];
+dataArr.push(buttonTagDesk);
+dataArr.push(anchorTagDesk);
+dataArr.push(popUpmenuDesk);
+
+document.querySelector('#closetitlePops').addEventListener('click', () => {
+  document.querySelector('.popupBlocDeskmain').style.display = 'none';
+});
+
+dataArr[0].onclick = function popDeskAppear() {
+  popUpmenuDesk.style.display = 'block';
+};
+
+dataArr[1].onclick = function popDeskAppear1() {
+  popUpmenuDesk.style.display = 'block';
+};
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 902) {
+    document.querySelector('.mainpopupBloc').style.display = 'none';
+    document.querySelector('.popupBlocDeskmain').style.width = '100%';
+  }
+});
