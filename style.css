@@ -1544,6 +1544,92 @@ textarea:focus-visible {
     max-width: 8%;
   }
 
+  .listruDesk {
+    max-width: 8%;
+  }
+
+  .deskmain {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deskmainimage {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 25px;
+  }
+
+  .buttonBlocDesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deskmaindiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .deskmaintext {
+    flex: 1;
+    font-family: Inter, sans-serif;
+    width: 424px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 30px;
+    color: #344563;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .buttonpopDesk {
+    flex: 1;
+    height: 48px;
+    max-width: 130px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
+
+  .imageDeskbutton1 {
+    margin-left: 15%;
+  }
+
+  .buttonpopsecondDesk {
+    flex: 1;
+    height: 48px;
+    max-width: 149px;
+    margin-left: 3%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
+
+  .imageDeskbutton {
+    margin-left: 9%;
+  }
+
   ul {
     margin: 0;
     padding: 0;
