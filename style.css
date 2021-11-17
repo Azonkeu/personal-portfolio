@@ -207,6 +207,76 @@ html {
   max-width: 28%;
 }
 
+.listru {
+  max-width: 35%;
+}
+
+.imagePopup {
+  width: 100%;
+}
+
+.textPopup {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 24px;
+  width: 100%;
+}
+
+.buttonBlocicon {
+  display: flex;
+  max-width: 91%;
+  flex-direction: row;
+}
+
+.buttonpop {
+  flex: 1;
+  display: flex;
+  width: 40%;
+  color: #fff;
+  margin-right: 6%;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  border: none;
+  padding-left: 3%;
+}
+
+.buttonpopsecond {
+  flex: 1;
+  display: flex;
+  width: 46%;
+  color: #fff;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border: none;
+  padding-left: 3%;
+  align-items: center;
+}
+
+.buttonpopimg {
+  margin-left: 4%;
+}
+
+.buttonpopsecondimg {
+  margin-left: 4%;
+}
+
+.popupBlocDesk {
+  display: none;
+}
 
 .container {
   display: none;
