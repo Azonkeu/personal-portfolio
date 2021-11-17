@@ -48,7 +48,7 @@ closepopupBlock.appendChild(title);
 const closeTitle = document.createElement('img');
 closeTitle.id = 'closetitlePop';
 closeTitle.className = 'closetitlepop';
-closeTitle.src= 'Pictures/close.svg';
+closeTitle.src = 'Pictures/close.svg';
 closepopupBlock.appendChild(closeTitle);
 
 const unorderedlist = document.createElement('ul');
@@ -124,47 +124,46 @@ buttonSecond.appendChild(buttonimgsec);
 document.body.appendChild(mainPopupBlock);
 mainPopupBlock.appendChild(popupBlock);
 
-const popUpmenu = document.getElementById("mainpopupDiv");
-const buttonTag = document.getElementById("projectpop");
-const cardLink1 = document.getElementById("blockn6");
-const cardLink2 = document.getElementById("blockn5");
-const cardLink3 = document.getElementById("blockn4");
-const cardLink4 = document.getElementById("blockn3");
-const cardLink5 = document.getElementById("blockn2");
-const cardLink6 = document.getElementById("blockn1");
-const span = document.getElementsByClassName("closetitlePop")[0];
+const popUpmenu = document.getElementById('mainpopupDiv');
+const buttonTag = document.getElementById('projectpop');
+const cardLink1 = document.getElementById('blockn6');
+const cardLink2 = document.getElementById('blockn5');
+const cardLink3 = document.getElementById('blockn4');
+const cardLink4 = document.getElementById('blockn3');
+const cardLink5 = document.getElementById('blockn2');
+const cardLink6 = document.getElementById('blockn1');
 
 document.querySelector('#closetitlePop').addEventListener('click', () => {
   document.querySelector('.mainpopupBloc').style.display = 'none';
 });
 
-buttonTag.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+buttonTag.onclick = function popUpAppear () {
+  popUpmenu.style.display = 'block';
+};
 
-cardLink1.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+cardLink1.onclick = function popUpAppearbl1 () {
+  popUpmenu.style.display = 'block';
+};
 
-cardLink2.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+cardLink2.onclick = function popUpAppearbl2 () {
+  popUpmenu.style.display = 'block';
+};
 
-cardLink3.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+cardLink3.onclick = function popUpAppearbl3 () {
+  popUpmenu.style.display = 'block';
+};
 
-cardLink4.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+cardLink4.onclick = function popUpAppearbl4 () {
+  popUpmenu.style.display = 'block';
+};
 
-cardLink5.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+cardLink5.onclick = function popUpAppearbl5 () {
+  popUpmenu.style.display = 'block';
+};
 
-cardLink6.onclick = function() {
-  popUpmenu.style.display = "block";
-}
+cardLink6.onclick = function popUpAppearbl6 () {
+  popUpmenu.style.display = 'block';
+};
 
 // desktop
 
@@ -191,7 +190,7 @@ popsBlockDesk.appendChild(titleDesk);
 const closeTitleDesk = document.createElement('img');
 closeTitleDesk.id = 'closetitlePops';
 closeTitleDesk.className = 'closetitlepop';
-closeTitleDesk.src= 'Pictures/close.svg';
+closeTitleDesk.src = 'Pictures/close.svg';
 popsBlockDesk.appendChild(closeTitleDesk);
 
 const unorderedlistDesk = document.createElement('ul');
@@ -267,25 +266,24 @@ buttonFirstDesk.appendChild(buttonimgDesk);
 buttonBlockDesk.appendChild(buttonSecondDesk);
 buttonSecondDesk.appendChild(buttonimgsecDesk);
 
-const popUpmenuDesk = document.getElementById("popupDivDeskmain");
-const buttonTagDesk = document.getElementById("projectDesk");
-const anchorTagDesk = document.getElementById("anchor");
-const spanDesk = document.getElementsByClassName("closetitlePops")[0];
+const popUpmenuDesk = document.getElementById('popupDivDeskmain');
+const buttonTagDesk = document.getElementById('projectDesk');
+const anchorTagDesk = document.getElementById('anchor');
 
 document.querySelector('#closetitlePops').addEventListener('click', () => {
   document.querySelector('.popupBlocDeskmain').style.display = 'none';
 });
 
-buttonTagDesk.onclick = function() {
-  popUpmenuDesk.style.display = "block";
-}
+buttonTagDesk.onclick = function popDeskAppear () {
+  popUpmenuDesk.style.display = 'block';
+};
 
-anchorTagDesk.onclick = function() {
-  popUpmenuDesk.style.display = "block";
-}
+anchorTagDesk.onclick = function popDeskAppear1 () {
+  popUpmenuDesk.style.display = 'block';
+};
 
 const resizeScreen = window.addEventListener('resize', function() {
-  if(window.innerWidth>902) {
+  if (window.innerWidth > 902) {
     document.querySelector('.mainpopupBloc').style.display = 'none';
     document.querySelector('.popupBlocDeskmain').style.width = '100%';
   }
