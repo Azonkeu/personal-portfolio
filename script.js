@@ -123,3 +123,26 @@ buttonSecond.appendChild(buttonimgsec);
 
 document.body.appendChild(mainPopupBlock);
 mainPopupBlock.appendChild(popupBlock);
+
+const popUpArray = [];
+popUpArray.push(mainPopupBlock);
+popUpArray.push(popupBlock);
+popUpArray.push(closepopupBlock);
+popUpArray.push(title);
+popUpArray.push(closeTitle);
+popUpArray.push(unorderedlist);
+popUpArray.push(listitem);
+popUpArray.push(listitem1);
+popUpArray.push(listitem2);
+popUpArray.push(popupimgtextBlock);
+popUpArray.push(popupimgtext);
+
+const popUpSecondArr = [];
+popUpSecondArr.push(popPicture);
+popUpSecondArr.push(buttonimg);
+popUpSecondArr.push(buttonimgsec);
+
+const arrayButton = [];
+arrayButton.push(buttonBlock);
+arrayButton.push(buttonFirst);
+arrayButton.push(buttonSecond);
