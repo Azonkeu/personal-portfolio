@@ -279,7 +279,7 @@ anchorTagDesk.onclick = function popDeskAppear1() {
   popUpmenuDesk.style.display = 'block';
 };
 
-window.addEventListener('resize', function resizeScreen() {
+window.addEventListener('resize', () => {
   if (window.innerWidth > 902) {
     document.querySelector('.mainpopupBloc').style.display = 'none';
     document.querySelector('.popupBlocDeskmain').style.width = '100%';
