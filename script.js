@@ -124,6 +124,47 @@ buttonSecond.appendChild(buttonimgsec);
 document.body.appendChild(mainPopupBlock);
 mainPopupBlock.appendChild(popupBlock);
 
+let popUpArray = [];
+popUpArray.push(mainPopupBlock);
+popUpArray.push(popupBlock);
+popUpArray.push(closepopupBlock);
+popUpArray.push(title);
+popUpArray.push(closeTitle);
+popUpArray.push(unorderedlist);
+popUpArray.push(listitem);
+popUpArray.push(listitem1);
+popUpArray.push(listitem2);
+popUpArray.push(popupimgtextBlock);
+popUpArray.push(popupimgtext);
+console.log(popUpArray);
+
+let popUpSecondArr = [];
+popUpSecondArr.push(popPicture);
+popUpSecondArr.push(buttonimg);
+popUpSecondArr.push(buttonimgsec);
+
+let arrayButton = [];
+arrayButton.push(buttonBlock);
+arrayButton.push(buttonFirst);
+arrayButton.push(buttonSecond);
+
+arrayButton[1].onclick = function redirectionMobile() {
+  location.href = 'https://azonkeu.github.io/personal-portfolio/';
+};
+
+arrayButton[2].onclick = function redirectionMobile() {
+  location.href = 'https://github.com/Azonkeu/personal-portfolio';
+};
+
+let textArr = [];
+textArr.push(popUpText);
+
+let popUpObject = {};
+popUpObject.htmlelement = popUpArray;
+popUpObject.images = popUpSecondArr;
+popUpObject.button = arrayButton;
+popUpObject.Text = textArr;
+
 const popUpmenu = document.getElementById('mainpopupDiv');
 const buttonTag = document.getElementById('projectpop');
 const cardLink1 = document.getElementById('blockn6');
@@ -133,35 +174,45 @@ const cardLink4 = document.getElementById('blockn3');
 const cardLink5 = document.getElementById('blockn2');
 const cardLink6 = document.getElementById('blockn1');
 
+let constArr = [];
+constArr.push(popUpmenu);
+constArr.push(buttonTag);
+constArr.push(cardLink1);
+constArr.push(cardLink2);
+constArr.push(cardLink3);
+constArr.push(cardLink4);
+constArr.push(cardLink5);
+constArr.push(cardLink6);
+
 document.querySelector('#closetitlePop').addEventListener('click', () => {
   document.querySelector('.mainpopupBloc').style.display = 'none';
 });
 
-buttonTag.onclick = function popUpAppear() {
+constArr[1].onclick = function popUpAppear() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink1.onclick = function popUpAppearbl1() {
+constArr[2].onclick = function popUpAppearbl1() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink2.onclick = function popUpAppearbl2() {
+constArr[3].onclick = function popUpAppearbl2() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink3.onclick = function popUpAppearbl3() {
+constArr[4].onclick = function popUpAppearbl3() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink4.onclick = function popUpAppearbl4() {
+constArr[5].onclick = function popUpAppearbl4() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink5.onclick = function popUpAppearbl5() {
+constArr[6].onclick = function popUpAppearbl5() {
   popUpmenu.style.display = 'block';
 };
 
-cardLink6.onclick = function popUpAppearbl6() {
+constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
 };
 
@@ -263,19 +314,65 @@ buttonFirstDesk.appendChild(buttonimgDesk);
 buttonBlockDesk.appendChild(buttonSecondDesk);
 buttonSecondDesk.appendChild(buttonimgsecDesk);
 
+let popUpArrayDesk = [];
+popUpArrayDesk.push(mainpopupBlockDesk);
+popUpArrayDesk.push(popupBlockDesk);
+popUpArrayDesk.push(popsBlockDesk);
+popUpArrayDesk.push(unorderedlistDesk);
+popUpArrayDesk.push(listitemDesk);
+popUpArrayDesk.push(listitem1Desk);
+popUpArrayDesk.push(listitem2Desk);
+popUpArrayDesk.push(blockDesk);
+popUpArrayDesk.push(blockTextDesk);
+popUpArrayDesk.push(buttonBlockDesk);
+
+let popUpSecondArrDesk = [];
+popUpSecondArrDesk.push(closeTitleDesk);
+popUpSecondArrDesk.push(popPictureDesk);
+popUpSecondArrDesk.push(buttonimgDesk);
+popUpSecondArrDesk.push(buttonimgsecDesk);
+
+
+let arrayButtonDesk = [];
+arrayButtonDesk.push(buttonFirstDesk);
+arrayButtonDesk.push(buttonSecondDesk);
+
+arrayButtonDesk[0].onclick = function redirectionLive() {
+  location.href = 'https://azonkeu.github.io/personal-portfolio/';
+};
+
+arrayButtonDesk[1].onclick = function redirection() {
+  location.href = 'https://github.com/Azonkeu/personal-portfolio';
+};
+
+let textArrDesk = [];
+textArrDesk.push(titleDesk);
+textArrDesk.push(popUpTextDesk);
+
+popUpObject.htmlcontainers = popUpArrayDesk;
+popUpObject.imagesDesk = popUpSecondArrDesk;
+popUpObject.buttonDesk = arrayButtonDesk;
+popUpObject.TextDesk = textArrDesk;
+console.log(popUpObject);
+
 const popUpmenuDesk = document.getElementById('popupDivDeskmain');
 const buttonTagDesk = document.getElementById('projectDesk');
 const anchorTagDesk = document.getElementById('anchor');
+
+let dataArr = [];
+dataArr.push(buttonTagDesk);
+dataArr.push(anchorTagDesk);
+dataArr.push(popUpmenuDesk);
 
 document.querySelector('#closetitlePops').addEventListener('click', () => {
   document.querySelector('.popupBlocDeskmain').style.display = 'none';
 });
 
-buttonTagDesk.onclick = function popDeskAppear() {
+dataArr[0].onclick = function popDeskAppear() {
   popUpmenuDesk.style.display = 'block';
 };
-
-anchorTagDesk.onclick = function popDeskAppear1() {
+ 
+dataArr[1].onclick = function popDeskAppear1() {
   popUpmenuDesk.style.display = 'block';
 };
 

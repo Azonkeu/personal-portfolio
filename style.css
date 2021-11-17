@@ -61,9 +61,7 @@ a {
   padding-bottom: 221px;
   padding-left: 4%;
   padding-right: 4%;
-  background-image: url(Pictures/popphoneback.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .popupBloc {
@@ -1485,7 +1483,7 @@ textarea:focus-visible {
     max-width: 100%;
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: url(Pictures/popbackgrdesk.svg);
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .popupBlocDesk {
