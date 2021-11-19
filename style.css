@@ -1491,7 +1491,7 @@ li small {
   }
 
   .form-control {
-    display: inline-flex;
+    display: flex;
   }
 
   .form-control i {
@@ -1512,10 +1512,6 @@ li small {
 
   .fa-times {
     color: #e74c3c;
-  }
-
-  .eml input {
-    width: 570px;
   }
 
   .mainpopupBloc {
