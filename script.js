@@ -221,8 +221,8 @@ const butGetformMo = document.getElementById('mobileForm');
 getInTouchMobile.onclick = function validateEmailMobile() {
   const formatMobile = document.getElementById('email');
   const emailVal = formatMobile.value;
-  const regex = (/^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/);
-  const validating = butGetformMo.submit();
+  // eslint-disable-next-line
+  const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
 
   if (regex.test(emailVal)) {
     document.querySelector('#circleMo').style.display = 'block';
@@ -238,7 +238,7 @@ getInTouchMobile.onclick = function validateEmailMobile() {
     document.querySelector('#timeMo').style.display = 'block';
     return recurMobile;
   }
-  return validating;
+  return emailVal;
 };
 
 const mainpopupBlockDesk = document.createElement('div');
@@ -410,7 +410,8 @@ const butGetform = document.getElementById('form');
 butGetIn.onclick = function validateEmail() {
   const formatEmail = document.getElementById('emaildesk');
   const emailValue = formatEmail.value;
-  const regexDesk = (/^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/);
+  // eslint-disable-next-line
+  const regexDesk = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
 
   if (regexDesk.test(emailValue)) {
     document.querySelector('#circle').style.display = 'block';
@@ -425,4 +426,5 @@ butGetIn.onclick = function validateEmail() {
     document.querySelector('#time').style.display = 'block';
     return recur;
   }
+  return emailValue;
 };
