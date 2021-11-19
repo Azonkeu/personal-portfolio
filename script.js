@@ -397,4 +397,24 @@ window.addEventListener('resize', () => {
   }
 });
 
+const butGetIn = document.getElementById('getIn');
 
+butGetIn.onclick = function validateEmail() {
+  const formatEmail = document.getElementById('emaildesk');
+const butGetIn = document.getElementById('getIn');
+
+butGetIn.onclick = function validateEmail() {
+  const formatEmail = document.getElementById('emaildesk');
+  const emailValue = formatEmail.value;
+  const text = document.getElementById('errorText');
+  const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+
+  if(regex.test(emailValue)){
+    document.querySelector('#circle').style.display = 'block';
+    document.querySelector('#time').style.display = 'none';
+    document.querySelector('#errorText').style.display = 'none';
+  } else {
+    document.querySelector('#errorText').style.display = 'block';
+    document.querySelector('#time').style.display = 'block';
+  }
+}
