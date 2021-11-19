@@ -215,6 +215,25 @@ constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
 };
 
+const getInTouchMobile = document.getElementById('getInTouch');
+
+getInTouchMobile.onclick = function validateEmailMobile() {
+  const formatMobile = document.getElementById('email');
+  const emailVal = formatMobile.value;
+  const textMobile = document.getElementById('errorMobile');
+  const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+  
+if (regex.test(emailVal)){
+    document.querySelector('#circleMo').style.display = 'block';
+    document.querySelector('#timeMo').style.display = 'none';
+    document.querySelector('#errorMobile').style.display = 'none';
+  } else {
+    document.querySelector('#errorMobile').style.display = 'block';
+    document.querySelector('#circleMo').style.display = 'none';
+    document.querySelector('#timeMo').style.display = 'block';
+  }
+}
+
 const mainpopupBlockDesk = document.createElement('div');
 mainpopupBlockDesk.id = 'popupDivDeskmain';
 mainpopupBlockDesk.className = 'popupBlocDeskmain';
@@ -377,3 +396,5 @@ window.addEventListener('resize', () => {
     document.querySelector('.popupBlocDeskmain').style.width = '100%';
   }
 });
+
+
