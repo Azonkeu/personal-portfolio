@@ -401,10 +401,6 @@ const butGetIn = document.getElementById('getIn');
 
 butGetIn.onclick = function validateEmail() {
   const formatEmail = document.getElementById('emaildesk');
-const butGetIn = document.getElementById('getIn');
-
-butGetIn.onclick = function validateEmail() {
-  const formatEmail = document.getElementById('emaildesk');
   const emailValue = formatEmail.value;
   const text = document.getElementById('errorText');
   const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
