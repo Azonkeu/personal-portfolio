@@ -1435,6 +1435,31 @@ textarea:focus-visible {
   display: none;
 }
 
+li small {
+  display: none;
+  font-family: Inter, sans-serif;
+  color: red;
+  font-size: 1em;
+  bottom: 0;
+  left: 0;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+.fa-times {
+  color: #e74c3c;
+}
+
+.form-control {
+  display: flex;
+}
+
+.form-control i {
+  display: none;
+}
+
 @media (min-width: 992px) {
   @font-face {
     font-family: "Crete Round";
@@ -1464,6 +1489,31 @@ textarea:focus-visible {
   @font-face {
     font-family: "Poppins";
     src: url(Poppins/Poppins-Light.ttf);
+  }
+
+  .form-control {
+    display: flex;
+  }
+
+  .form-control i {
+    display: none;
+  }
+
+  li small {
+    display: none;
+    color: red;
+    font-size: 1em;
+    bottom: 0;
+    font-family: Inter, sans-serif;
+    left: 0;
+  }
+
+  .fa-check-circle {
+    color: green;
+  }
+
+  .fa-times {
+    color: #e74c3c;
   }
 
   .mainpopupBloc {

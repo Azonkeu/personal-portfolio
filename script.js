@@ -215,6 +215,32 @@ constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
 };
 
+const getInTouchMobile = document.getElementById('getInTouch');
+const butGetformMo = document.getElementById('mobileForm');
+
+getInTouchMobile.onclick = function validateEmailMobile() {
+  const formatMobile = document.getElementById('email');
+  const emailVal = formatMobile.value;
+  // eslint-disable-next-line
+  const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+
+  if (regex.test(emailVal)) {
+    document.querySelector('#circleMo').style.display = 'block';
+    document.querySelector('#timeMo').style.display = 'none';
+    document.querySelector('#errorMobile').style.display = 'none';
+    butGetformMo.submit();
+  } else {
+    const recurMobile = butGetformMo.addEventListener('submit', (e) => {
+      e.preventDefault();
+    });
+    document.querySelector('#errorMobile').style.display = 'block';
+    document.querySelector('#circleMo').style.display = 'none';
+    document.querySelector('#timeMo').style.display = 'block';
+    return recurMobile;
+  }
+  return emailVal;
+};
+
 const mainpopupBlockDesk = document.createElement('div');
 mainpopupBlockDesk.id = 'popupDivDeskmain';
 mainpopupBlockDesk.className = 'popupBlocDeskmain';
@@ -377,3 +403,28 @@ window.addEventListener('resize', () => {
     document.querySelector('.popupBlocDeskmain').style.width = '100%';
   }
 });
+
+const butGetIn = document.getElementById('getIn');
+const butGetform = document.getElementById('form');
+
+butGetIn.onclick = function validateEmail() {
+  const formatEmail = document.getElementById('emaildesk');
+  const emailValue = formatEmail.value;
+  // eslint-disable-next-line
+  const regexDesk = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+
+  if (regexDesk.test(emailValue)) {
+    document.querySelector('#circle').style.display = 'block';
+    document.querySelector('#time').style.display = 'none';
+    document.querySelector('#errorText').style.display = 'none';
+    butGetform.submit();
+  } else {
+    const recur = butGetform.addEventListener('submit', (e) => {
+      e.preventDefault();
+    });
+    document.querySelector('#errorText').style.display = 'block';
+    document.querySelector('#time').style.display = 'block';
+    return recur;
+  }
+  return emailValue;
+};
