@@ -216,6 +216,7 @@ constArr[7].onclick = function popUpAppearbl6() {
 };
 
 const getInTouchMobile = document.getElementById('getInTouch');
+const butGetformMo = document.getElementById('mobileForm');
 
 getInTouchMobile.onclick = function validateEmailMobile() {
   const formatMobile = document.getElementById('email');
@@ -228,10 +229,15 @@ if (regex.test(emailVal)){
     document.querySelector('#timeMo').style.display = 'none';
     document.querySelector('#errorMobile').style.display = 'none';
   } else {
+    const recurMobile =  butGetformMo.addEventListener('submit', (e) => {
+      e.preventDefault();
+    });
     document.querySelector('#errorMobile').style.display = 'block';
     document.querySelector('#circleMo').style.display = 'none';
     document.querySelector('#timeMo').style.display = 'block';
+    return recur;
   }
+  window.location.reload();
 }
 
 const mainpopupBlockDesk = document.createElement('div');
@@ -398,8 +404,9 @@ window.addEventListener('resize', () => {
 });
 
 const butGetIn = document.getElementById('getIn');
+const butGetform = document.getElementById('form');
 
-butGetIn.onclick = function validateEmail() {
+  butGetIn.onclick = function validateEmail() {
   const formatEmail = document.getElementById('emaildesk');
   const emailValue = formatEmail.value;
   const text = document.getElementById('errorText');
@@ -410,7 +417,14 @@ butGetIn.onclick = function validateEmail() {
     document.querySelector('#time').style.display = 'none';
     document.querySelector('#errorText').style.display = 'none';
   } else {
+    const recur =  butGetform.addEventListener('submit', (e) => {
+      e.preventDefault();
+    });
     document.querySelector('#errorText').style.display = 'block';
     document.querySelector('#time').style.display = 'block';
+    return recur;
   }
+  window.location.reload();
 }
+
+
