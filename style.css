@@ -1437,6 +1437,7 @@ textarea:focus-visible {
 
 li small {
   display: none;
+  font-family: Inter, sans-serif;
   color: red;
   font-size: 1em;
   bottom: 0;
@@ -1501,8 +1502,9 @@ li small {
   li small {
     display: none;
     color: red;
-    font-size: 24px;
+    font-size: 1em;
     bottom: 0;
+    font-family: Inter, sans-serif;
     left: 0;
   }
 
