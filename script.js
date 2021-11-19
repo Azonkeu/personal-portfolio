@@ -237,8 +237,8 @@ getInTouchMobile.onclick = function validateEmailMobile() {
     document.querySelector('#circleMo').style.display = 'none';
     document.querySelector('#timeMo').style.display = 'block';
     return recurMobile;
-  };
-  valuReturning;
+  }
+  return valuReturning;
 };
 
 const mainpopupBlockDesk = document.createElement('div');
@@ -426,5 +426,5 @@ butGetIn.onclick = function validateEmail() {
     document.querySelector('#time').style.display = 'block';
     return recur;
   }
-  returningValue;
+  return returningValue;
 };
