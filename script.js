@@ -221,24 +221,25 @@ const butGetformMo = document.getElementById('mobileForm');
 getInTouchMobile.onclick = function validateEmailMobile() {
   const formatMobile = document.getElementById('email');
   const emailVal = formatMobile.value;
-  const textMobile = document.getElementById('errorMobile');
   const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
-  
-if (regex.test(emailVal)){
+  const valuReturning = butGetformMo.submit();
+
+  if (regex.test(emailVal)) {
     document.querySelector('#circleMo').style.display = 'block';
     document.querySelector('#timeMo').style.display = 'none';
     document.querySelector('#errorMobile').style.display = 'none';
+    butGetformMo.submit();
   } else {
-    const recurMobile =  butGetformMo.addEventListener('submit', (e) => {
+    const recurMobile = butGetformMo.addEventListener('submit', (e) => {
       e.preventDefault();
     });
     document.querySelector('#errorMobile').style.display = 'block';
     document.querySelector('#circleMo').style.display = 'none';
     document.querySelector('#timeMo').style.display = 'block';
-    return recur;
-  }
-  window.location.reload();
-}
+    return recurMobile;
+  };
+  valuReturning;
+};
 
 const mainpopupBlockDesk = document.createElement('div');
 mainpopupBlockDesk.id = 'popupDivDeskmain';
@@ -406,25 +407,24 @@ window.addEventListener('resize', () => {
 const butGetIn = document.getElementById('getIn');
 const butGetform = document.getElementById('form');
 
-  butGetIn.onclick = function validateEmail() {
+butGetIn.onclick = function validateEmail() {
   const formatEmail = document.getElementById('emaildesk');
   const emailValue = formatEmail.value;
-  const text = document.getElementById('errorText');
   const regex = /^[a-z\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+  const returningValue = butGetform.submit();
 
-  if(regex.test(emailValue)){
+  if (regex.test(emailValue)) {
     document.querySelector('#circle').style.display = 'block';
     document.querySelector('#time').style.display = 'none';
     document.querySelector('#errorText').style.display = 'none';
+    butGetform.submit();
   } else {
-    const recur =  butGetform.addEventListener('submit', (e) => {
+    const recur = butGetform.addEventListener('submit', (e) => {
       e.preventDefault();
     });
     document.querySelector('#errorText').style.display = 'block';
     document.querySelector('#time').style.display = 'block';
     return recur;
   }
-  window.location.reload();
-}
-
-
+  returningValue;
+};
