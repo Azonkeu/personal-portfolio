@@ -1435,6 +1435,14 @@ textarea:focus-visible {
   display: none;
 }
 
+li small {
+  display: none;
+  color: red;
+  font-size: 1em;
+  bottom: 0;
+  left: 0;
+}
+
 @media (min-width: 992px) {
   @font-face {
     font-family: "Crete Round";
