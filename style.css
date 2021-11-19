@@ -1443,6 +1443,18 @@ li small {
   left: 0;
 }
 
+.fa-check-circle {
+  color: green;
+}
+
+.fa-times {
+  color: #e74c3c;
+}
+
+.form-control {
+  display: flex;
+}
+
 @media (min-width: 992px) {
   @font-face {
     font-family: "Crete Round";
