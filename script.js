@@ -78,7 +78,8 @@ popupBlock.appendChild(popupimgtextBlock);
 
 const popPicture = document.createElement('img');
 popPicture.className = 'imagePopup';
-popPicture.src = 'Pictures/popup-pic.png';
+popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+//popPicture.src = 'Pictures/popup-pic.png';
 popupimgtextBlock.appendChild(popPicture);
 
 const popupimgtext = document.createElement('div');
@@ -297,7 +298,8 @@ popupBlockDesk.appendChild(blockDesk);
 
 const popPictureDesk = document.createElement('img');
 popPictureDesk.src = 'Pictures/Snapshoot-desktop.png';
-popPictureDesk.className = 'deskmainimage';
+popPictureDesk.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+//popPictureDesk.className = 'deskmainimage';
 
 const blockTextDesk = document.createElement('div');
 blockTextDesk.className = 'deskmaindiv';
