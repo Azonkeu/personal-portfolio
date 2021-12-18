@@ -189,24 +189,27 @@ document.querySelector('#closetitlePop').addEventListener('click', () => {
 
 constArr[1].onclick = function popUpAppear() {
   popUpmenu.style.display = 'block';
- closeTitle.src = 'https://colorlib.com/wp/wp-content/uploads/sites/2/book-free-template.jpg';
+  popPicture.src = 'https://colorlib.com/wp/wp-content/uploads/sites/2/book-free-template.jpg';
 };
 
 constArr[2].onclick = function popUpAppearbl1() {
   popUpmenu.style.display = 'block';
-  closeTitle.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 constArr[3].onclick = function popUpAppearbl2() {
   popUpmenu.style.display = 'block';
+  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 constArr[4].onclick = function popUpAppearbl3() {
   popUpmenu.style.display = 'block';
+  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 constArr[5].onclick = function popUpAppearbl4() {
   popUpmenu.style.display = 'block';
+  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 constArr[6].onclick = function popUpAppearbl5() {
@@ -215,6 +218,7 @@ constArr[6].onclick = function popUpAppearbl5() {
 
 constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
+  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 const getInTouchMobile = document.getElementById('getInTouch');
@@ -393,10 +397,12 @@ document.querySelector('#closetitlePops').addEventListener('click', () => {
 
 dataArr[0].onclick = function popDeskAppear() {
   popUpmenuDesk.style.display = 'block';
+popPictureDesk.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 dataArr[1].onclick = function popDeskAppear1() {
   popUpmenuDesk.style.display = 'block';
+  popPictureDesk.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 window.addEventListener('resize', () => {
