@@ -189,10 +189,12 @@ document.querySelector('#closetitlePop').addEventListener('click', () => {
 
 constArr[1].onclick = function popUpAppear() {
   popUpmenu.style.display = 'block';
+ closeTitle.src = 'https://colorlib.com/wp/wp-content/uploads/sites/2/book-free-template.jpg';
 };
 
 constArr[2].onclick = function popUpAppearbl1() {
   popUpmenu.style.display = 'block';
+  closeTitle.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
 };
 
 constArr[3].onclick = function popUpAppearbl2() {
