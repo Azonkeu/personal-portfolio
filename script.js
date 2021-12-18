@@ -195,12 +195,12 @@ constArr[1].onclick = function popUpAppear() {
 
 constArr[2].onclick = function popUpAppearbl1() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPicture.SRC = 'https://thumbs.dreamstime.com/b/tutorial-search-e-learning-anywhere-banner-infographic-graduation-research-university-exam-college-online-courses-concept-123716786.jpg';
 };
 
 constArr[3].onclick = function popUpAppearbl2() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://www.opensourceforu.com/wp-content/uploads/2017/01/Calculator.jpg';
+  popPicture.src = 'https://img.freepik.com/free-vector/illustration-online-learning-landing-page-distance-learning-idea-educational-efficiency-accounting-lesson-learning-platform-tutorial-video_4968-772.jpg?size=626&ext=jpg'
 };
 
 constArr[4].onclick = function popUpAppearbl3() {
@@ -210,7 +210,7 @@ constArr[4].onclick = function popUpAppearbl3() {
 
 constArr[5].onclick = function popUpAppearbl4() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://uicookies.com/wp-content/uploads/2020/01/WPLMS-react-website-templates-768x605.jpg.webp';
+  popPicture.src = 'https://thumbs.dreamstime.com/b/research-science-hospital-technology-research-science-technology-concept-scientists-characters-standing-together-can-use-119224874.jpg';
 };
 
 constArr[6].onclick = function popUpAppearbl5() {
@@ -400,7 +400,7 @@ document.querySelector('#closetitlePops').addEventListener('click', () => {
 
 dataArr[0].onclick = function popDeskAppear() {
   popUpmenuDesk.style.display = 'block';
-popPictureDesk.src = 'https://assets.materialup.com/uploads/c4758a9c-2c53-4bc0-8f51-27f32f9348ff/preview.jpg';
+popPictureDesk.src = 'https://thumbs.dreamstime.com/b/research-science-hospital-technology-research-science-technology-concept-scientists-characters-standing-together-can-use-119224874.jpg';
 };
 
 dataArr[1].onclick = function popDeskAppear1() {
