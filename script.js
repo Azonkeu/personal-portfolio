@@ -200,26 +200,27 @@ constArr[2].onclick = function popUpAppearbl1() {
 
 constArr[3].onclick = function popUpAppearbl2() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPicture.src = 'https://www.opensourceforu.com/wp-content/uploads/2017/01/Calculator.jpg';
 };
 
 constArr[4].onclick = function popUpAppearbl3() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPicture.src = 'https://miu.sg/wp-content/uploads/blogpost_new1.png';
 };
 
 constArr[5].onclick = function popUpAppearbl4() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPicture.src = 'https://uicookies.com/wp-content/uploads/2020/01/WPLMS-react-website-templates-768x605.jpg.webp';
 };
 
 constArr[6].onclick = function popUpAppearbl5() {
   popUpmenu.style.display = 'block';
+  popPicture.src = 'http://www.purplepawn.com/wp-content/uploads/2014/05/Michael-Graves-Chess-set.jpg';
 };
 
 constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPicture.src = 'https://thumbs.dreamstime.com/b/online-training-homepage-template-website-landing-page-flat-design-144200966.jpg';
 };
 
 const getInTouchMobile = document.getElementById('getInTouch');
@@ -404,7 +405,7 @@ popPictureDesk.src = 'https://www.designeatrepeat.com/wp-content/uploads/printab
 
 dataArr[1].onclick = function popDeskAppear1() {
   popUpmenuDesk.style.display = 'block';
-  popPictureDesk.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+  popPictureDesk.src = 'https://thumbs.dreamstime.com/b/online-training-homepage-template-website-landing-page-flat-design-144200966.jpg';
 };
 
 window.addEventListener('resize', () => {
