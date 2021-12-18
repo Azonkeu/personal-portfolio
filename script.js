@@ -191,36 +191,78 @@ document.querySelector('#closetitlePop').addEventListener('click', () => {
 constArr[1].onclick = function popUpAppear() {
   popUpmenu.style.display = 'block';
   popPicture.src = 'https://colorlib.com/wp/wp-content/uploads/sites/2/book-free-template.jpg';
+arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/To-Do-List/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/To-Do-List';
+};
 };
 
 constArr[2].onclick = function popUpAppearbl1() {
   popUpmenu.style.display = 'block';
   popPicture.SRC = 'https://thumbs.dreamstime.com/b/tutorial-search-e-learning-anywhere-banner-infographic-graduation-research-university-exam-college-online-courses-concept-123716786.jpg';
+arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/To-Do-List/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/To-Do-List';
+};
 };
 
 constArr[3].onclick = function popUpAppearbl2() {
   popUpmenu.style.display = 'block';
   popPicture.src = 'https://img.freepik.com/free-vector/illustration-online-learning-landing-page-distance-learning-idea-educational-efficiency-accounting-lesson-learning-platform-tutorial-video_4968-772.jpg?size=626&ext=jpg'
+  arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/To-Do-List/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/To-Do-List';
+};
 };
 
 constArr[4].onclick = function popUpAppearbl3() {
   popUpmenu.style.display = 'block';
   popPicture.src = 'https://assets.materialup.com/uploads/c4758a9c-2c53-4bc0-8f51-27f32f9348ff/preview.jpg';
+  arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/To-Do-List/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/To-Do-List';
+};
 };
 
 constArr[5].onclick = function popUpAppearbl4() {
   popUpmenu.style.display = 'block';
   popPicture.src = 'https://thumbs.dreamstime.com/b/research-science-hospital-technology-research-science-technology-concept-scientists-characters-standing-together-can-use-119224874.jpg';
+  arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/the_odin_project/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/the_odin_project';
+};
 };
 
 constArr[6].onclick = function popUpAppearbl5() {
   popUpmenu.style.display = 'block';
   popPicture.src = 'https://img.freepik.com/free-vector/cyber-security-analyst-banner-landing-page_1124-1257.jpg?size=626&ext=jpg';
+  arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/Speak-Fluently/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/Speak-Fluently';
+};
 };
 
 constArr[7].onclick = function popUpAppearbl6() {
   popUpmenu.style.display = 'block';
   popPicture.src = 'https://thumbs.dreamstime.com/b/online-training-homepage-template-website-landing-page-flat-design-144200966.jpg';
+arrayButton[1].onclick = function redirectionMobile() {
+  window.location.href = 'https://azonkeu.github.io/Awesome-books/';
+};
+arrayButton[2].onclick = function redirectionMobile() {
+  window.location.href = 'https://github.com/Azonkeu/Awesome-books';
+};
 };
 
 const getInTouchMobile = document.getElementById('getInTouch');
@@ -401,6 +443,21 @@ document.querySelector('#closetitlePops').addEventListener('click', () => {
 dataArr[0].onclick = function popDeskAppear() {
   popUpmenuDesk.style.display = 'block';
 popPictureDesk.src = 'https://thumbs.dreamstime.com/b/research-science-hospital-technology-research-science-technology-concept-scientists-characters-standing-together-can-use-119224874.jpg';
+arrayButtonDesk[0].onclick = function redirectionLive() {
+  window.location.href = 'https://azonkeu.github.io/To-Do-List/';
+};
+
+arrayButtonDesk[1].onclick = function redirection() {
+  window.location.href = 'https://github.com/Azonkeu/To-Do-List';
+};
+
+arrayButtonDesk[0].onclick = function redirectionLive() {
+  window.location.href = 'https://azonkeu.github.io/Awesome-books/';
+};
+
+arrayButtonDesk[1].onclick = function redirection() {
+  window.location.href = 'https://github.com/Azonkeu/Awesome-books';
+};
 };
 
 dataArr[1].onclick = function popDeskAppear1() {
