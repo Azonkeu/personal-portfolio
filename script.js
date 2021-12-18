@@ -205,7 +205,7 @@ constArr[3].onclick = function popUpAppearbl2() {
 
 constArr[4].onclick = function popUpAppearbl3() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'https://miu.sg/wp-content/uploads/blogpost_new1.png';
+  popPicture.src = 'https://assets.materialup.com/uploads/c4758a9c-2c53-4bc0-8f51-27f32f9348ff/preview.jpg';
 };
 
 constArr[5].onclick = function popUpAppearbl4() {
@@ -215,7 +215,7 @@ constArr[5].onclick = function popUpAppearbl4() {
 
 constArr[6].onclick = function popUpAppearbl5() {
   popUpmenu.style.display = 'block';
-  popPicture.src = 'http://www.purplepawn.com/wp-content/uploads/2014/05/Michael-Graves-Chess-set.jpg';
+  popPicture.src = 'https://img.freepik.com/free-vector/cyber-security-analyst-banner-landing-page_1124-1257.jpg?size=626&ext=jpg';
 };
 
 constArr[7].onclick = function popUpAppearbl6() {
@@ -400,7 +400,7 @@ document.querySelector('#closetitlePops').addEventListener('click', () => {
 
 dataArr[0].onclick = function popDeskAppear() {
   popUpmenuDesk.style.display = 'block';
-popPictureDesk.src = 'https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png';
+popPictureDesk.src = 'https://assets.materialup.com/uploads/c4758a9c-2c53-4bc0-8f51-27f32f9348ff/preview.jpg';
 };
 
 dataArr[1].onclick = function popDeskAppear1() {
