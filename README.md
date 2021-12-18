@@ -22,7 +22,9 @@ In this project, you will set up a mobile version of a portfolio website. To beg
 
 Check out [my repository](https://github.com/Azonkeu/personal-portfolio/pull/1) for more details.
 
-Please click on this link to look at the live version of the [personal_portfolio]( https://azonkeu.github.io/personal-portfolio/).
+## Live Demo
+
+Please click on this link to look at the live version of the [personal portfolio]( https://azonkeu.github.io/personal-portfolio/).
 
 ### Built With
 * Major languages: Html5, Css3, Markdown
